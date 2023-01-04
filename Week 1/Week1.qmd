@@ -1,0 +1,507 @@
+---
+title: "Week 1: Introductions, Course Expectations, and Research Ethics"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [default]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: bottom
+editor: visual
+self-contained: true
+---
+
+# Getting Started
+
+## What is "**The Law of the Hammer**?"
+
+::: incremental
+-   "When the only tool you have is a hammer, every problem begins to resemble a nail" (Maslow, 1962)
+-   "Give a small boy a hammer, and he will find that everything he encounters needs pounding" (Kaplan, 1964, p. 28)
+-   "If all you have is a hammer, everything looks like a nail"
+:::
+
+## Overview {.smaller}
+
+-   Introductions
+-   Expectations
+-   Foundations
+    -   Definitions
+    -   Purposes
+    -   Dichotomies
+    -   Types
+-   Research Ethics
+
+We will end with the required *RCR 1 hour in-person training* component. You will be the first grad students to get this!
+
+## Introductions
+
+-   Name
+-   Quantitative Research Experience
+-   Comfort Level with Statistics
+-   CI 665 *Personal* Learning Objectives
+-   Concerns about the course
+-   Potential Research FOCUS for Spring 2023
+-   Fun Fact!
+
+## Kody Frey {.smaller}
+
+::: columns
+::: {.column width="40%"}
+-   Assistant Professor of Information Communication Technology and Instructional Communication Research
+-   PhD from UKY in 2019 (Supervised by Derek Lane)
+-   MA from Illinois State and BA from Clemson
+-   Specialization is in instructional policies, behavioral learning, and research methods
+:::
+
+::: {.column width="60%"}
+![](Images/2021Headshot.JPG){fig-align="center" width="350" height="500"}
+:::
+:::
+
+## Who are you? {.smaller}
+
+::: {layout-nrow="3"}
+![Elizabeth Abel](Images/xsmall.jpeg){fig-align="left"}
+
+![Madelyn Anderson](Images/xsmall-2.jpeg){fig-align="left"}
+
+![Ikeola Bodunde](Images/xsmall-3.jpeg){fig-align="left"}
+
+![Ivy Brashear](Images/xsmall-4.jpeg){fig-align="left"}
+
+![Jordan DeLuce](Images/xsmall-5.jpeg){fig-align="left"}
+
+![Luke Fetzer](Images/xsmall-6.jpeg){fig-align="left"}
+
+![Ansley George](Images/xsmall-7.jpeg){fig-align="left"}
+
+![Serena Hanson](Images/xsmall-8.jpeg){fig-align="left"}
+
+![Marian Jaitto-Jeffrey](Images/xsmall-9.jpeg){fig-align="left"}
+
+![Courtney Kleppinger](Images/xsmall-10.jpeg){fig-align="left"}
+
+![Jacob Locke](Images/xsmall-11.jpeg){fig-align="left"}
+
+![Anthony Martinez](Images/xsmall-12.jpeg){fig-align="left"}
+
+![Erica Mattingly](Images/xsmall-13.jpeg){fig-align="left"}
+
+![Mark Ribott](Images/xsmall-14.jpeg){fig-align="left"}
+
+![Savannah Tucker](Images/xsmall-15.jpeg){fig-align="left"}
+:::
+
+# Expectations
+
+## Teaching/Professor Expectations {.smaller}
+
+I will *commit* to giving you a world-class learning experience. But I will need you to commit as well:
+
+-   Prepare for each week having read and reflected on the assigned readings
+-   Outline the readings
+-   Annotate them with your thoughts
+-   Keep track of your burning questions as you go
+-   Contribute to the class discussion
+
+If there is anything I can do to make this course more relevant to you, your work, and/or your research interests, please let me know. I encourage you to take advantage of my office hours, or better yet, email me to make an appointment. I have an open-door policy and I'm willing to help whenever and wherever needed.
+
+## Teaching/Professor Expectations
+
+Our success as a class is built on 4 elements:
+
+-   Trust
+-   Cooperation
+-   Support
+-   Mutual Respect
+
+## Course Expectations
+
+**Textbook**: [Research Methods in Applied Settings](https://www.routledge.com/Research-Methods-in-Applied-Settings-An-Integrated-Approach-to-Design-and/Gliner-Morgan-Leech/p/book/9781138852976)
+
+**Readings**: [Course Schedule](https://uk.instructure.com/courses/2061567/pages/weekly-schedule-slash-assigned-readings)
+
+**APA 7th Edition**: [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html)
+
+**APA Template**: [Canvas](https://uk.instructure.com/courses/2061567/files/folder/Uploaded%20Media)
+
+## Course Expectations
+
+**CITI Training**: [Office of Research Integrity](https://www.research.uky.edu/responsible-conduct-research)
+
+**SPSS**: [UKY Downloads - free](https://download.uky.edu)
+
+**R / RStudio / Posit**: [Open source - also free!](https://support.posit.co/hc/en-us/articles/201141096-Getting-Started-with-R)
+
+## Learning Outcomes {.smaller}
+
+At the end of this course, students should be able to: 
+-   Develop research ideas and turn them into testable questions;
+-   Design and conduct ethical social scientific studies using quantitative research approaches;
+-   Map theoretical constructs onto their concrete operationalizations;
+-   Measure latent constructs in reliable and valid ways;
+-   Locate, critically read, summarize, and critique reports of empirical research; - Write transparent reports of studies using quantitative research methods.
+
+## Daily Structure
+
+-   Lecture (50 minnutes)
+-   10 min Break
+-   Readings / Discussion (50 minutes)
+-   10 min break
+-   Workshop (45 minutes)
+
+## Course Structure {.smaller}
+
+-   Weekly Reaction Papers (150)
+-   In-Class Participation (50)
+-   Midterm Exam (200)
+-   CITI Certification (50)
+-   IRB Protocol (50)
+-   Study Codebook (50)
+-   Final Survey in Qualtrics (50)
+-   Final Group Research Paper (300)
+-   Final Conference Presentation (100)
+
+## Course Structure {.smaller}
+
+Final Group Research Paper
+
+You will work in groups of 3 to complete your own, data-driven research paper. You can decide your groups based on today's introductions and research interests. Topics need to be approved by 1/27.
+
+# Content Part 1
+
+## GML Chapter 1 {.smaller}
+
+**Foundations**
+
+-   Definitions
+    -   Theory
+    -   Research
+    -   Method
+-   Purposes
+    -   Increasing Knowledge
+    -   Theory Development
+    -   Practical Application
+    -   Development of Research Tools
+-   Dichotomies
+    -   Theoretical vs. Applied
+    -   Quantitative vs. Qualitative
+    -   Objective vs. Subjective
+    -   Statistical vs. Descriptive
+-   Approaches
+    -   Experimental
+    -   Nonexperimental
+    -   Descriptive
+
+## The Method Behind the Magic
+
+[The Magic Number](https://www.uky.edu/~drlane/cards.htm)
+
+# Definitions
+
+## Theory
+
+"A theory is a set of interrelated constructs (concepts), definitions, and propositions that present a systematic view of phenomena by specifying relations among the variables, with the purpose of explaining and (or) predicting the phenomena." (Kerlinger, 1986)
+
+"A theory is a way of making sense of a disturbing situation." (Kaplan, 1964)
+
+------------------------------------------------------------------------
+
+## Theory
+
+Dubin (1978)
+
+![](Images/Dubin.jpg){.absolute top="25" right="225" width="450"}
+
+## Research
+
+![](Images/Research.png){.absolute top="100" right="225" width="600"}
+
+------------------------------------------------------------------------
+
+![](Images/Research2.jpg){fig-align="center"}
+
+## Research Methods {.smaller}
+
+"The strategies and tools used to collect evidence necessary for building or testing explanations (theories) about that which is being studied."
+
+**Research**: "Disciplined method of gaining new information, building knowledge, or answering questions; also called disciplined inquiry; implies a *systematic* investigation with underlying guidelines regardless of the particular research paradigm."
+
+4 Broad Categories:
+
+-   Experiments
+-   Surveys
+-   Textual Analysis
+-   Naturalistic Inquiry
+
+------------------------------------------------------------------------
+
+### Experimental Research
+
+Purpose is to discover *causal* relationships between variables.
+
+*Control* is a central characteristic.
+
+------------------------------------------------------------------------
+
+### Survey Research
+
+Purpose is to discover how large groups of people think and act.
+
+Describes the characteristics of the respondents and the populations they were chosen to represent.
+
+Focus is on beliefs, attitudes, and behaviors.
+
+------------------------------------------------------------------------
+
+### Textual Analysis
+
+Purpose is to describe and interpret the characteristics of a recorded or visual message.
+
+Focus is on content, structure, and functions of messages contained in texts.
+
+------------------------------------------------------------------------
+
+### Naturalistic Inquiry
+
+Purpose is to study people in the situations where they usually interact, behaving as they customarily do when engaged in everyday activity.
+
+Focus is on how people behave when they are absorbed in *genuine life experiences*.
+
+------------------------------------------------------------------------
+
+### Our Focus
+
+To make trusthworhty *generalizations*...
+
+-   Samples must be **representative**
+-   Response rates must be **sufficient**
+-   Questions must be **unbiased**
+-   Data collections procedures must be **uniform**
+-   Coding and analysis must be **accurate**
+
+# Purposes
+
+## Theory Development {.smaller}
+
+"The best research is driven by theory, validates a theory, further explains a theory, challenges an existing theory, or aids in the creation of theory. Theoretically driven research is built on the results of previous researchers, and it provides a foundation for subsequent researchers. It is highly unlikely that any theory could be formulated, tested, and verified in one research study. Rather, theory is developed and tested over time. What we come to know as 'the theory' to explain some phenomenon is the result of many research studies and the efforts of many researchers." (Keyton, 2001,pp. 8-9).
+
+## Practical Application
+
+A second approach to increasing knowledge within the discipline involves providing evidence for the efficacy of a curriculum, a therapeutic technique, or administrative change when there may not be a theory that would predict the results.
+
+## Development of Research Tools
+
+We also increase knowledge within a discipline by creating methods to assess behaviors.
+
+-   A new scale to measure a latent (i.e. unobservable) concept
+-   A new statistical technique
+-   A new method of observational analysis
+-   A technique for coding public data
+
+# Dichotomires
+
+## Theoretical vs. Applied
+
+![](Images/Theory.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+What do *you* want to do with your knowledge?
+
+"Nevertheless, all studies have or should have some theoretical or conceptual framework and be based on previous research literature, even if the primary purpose is applied." (GML, p. 7)
+
+## Quantitative vs. Qualitative
+
+What's your *paradigm*?
+
+A philosophy that guides how the research might be conducted.
+
+It determines the types of questions you are interested in an the context in which they are examined.
+
+------------------------------------------------------------------------
+
+In the postpositivist/quantitative framework, a specific plan is developed prior to the study.
+
+In the constructivist/ qualitative approach, less structure is placed on the use of specific guidelines in the research design.
+
+___
+
+Derived from our metatheoretical assumptions:
+
+-   Epistemology
+    -   One truth < - > Multiple truths
+-   Ontology
+    -   Reactors < - > Humans as actors
+-   Axiology
+    -   Value neutral < - > Value laden
+
+## Objective vs. Subjective
+
+**Quantitative Data** are said to be objective.
+
+Behaviors are collected and quantified with reliable instruments.
+
+___
+
+**Qualitative Data** are said to be subjective.
+
+Behaviors could be interpreted differently be different people.
+
+# Types of Research
+
+## Approaches
+
+The general framework for quantitative research includes 3 main approaches:
+
+-   Experimental
+-   Nonexperimental
+-   Descriptive
+
+## Experimental
+
+The *randomized experimental approach* has random assignment of participants to the intervention and comparison groups and an active or manipulated independent variable.
+
+The *quasi-experimental approach* has an active independent variable but without random assignment of participants to groups.
+
+## Nonexperimental
+
+The *comparative approach* also makes a comparison of a few groups on the dependent variables. However, the groups are based on an attribute independent variable, such as gender.
+
+The *associational approach*, sometimes called correlational, has two or more usually continuous variables for the same group of participants, which are related or associated.
+
+## Descriptive
+
+The *descriptive approach*  refers to research questions that use only descriptive, not inferential, statistics.
+
+## Why does this matter?
+
+The approaches really refer to the types of research questions that you will ask.
+
+Categorizing helps researchers decide if a goal is to establish cause-and-effect.
+
+It also allows you to directly follow the path from the general purpose of the research to the specific hypothesis.
+
+___
+
+![](Images/GML.jpg){fig-align="center"}
+
+___
+
+The type of question/hypothesis will eventually dictate the type of analysis that you conduct!
+
+“The **research hypothesis** is the **bridge** between **theory** and **research**.”
+
+-   Metatheory drives Theory
+-   Theory drives RQs and Hs
+-   RQs and Hs drive Method(s)
+-   Method(s) drive Results
+-   Results drive Discussion
+
+## In Sum...
+
+Methods are designed to promote the generation of theory, which can then be applied to help humans solve problems.
+
+Quantitative researchers are interested in how an understanding of a particular communication phenomenon might be generalized to a larger population.
+
+___
+
+Quantitative research: 
+
+-   Is *systematic*. It is intentional, replicable, and valid.
+-   Observes, explains, and predicts
+-   Tests theories that describe human behavior
+-   Answers questions of **group differences** or **variable relationships**
+
+# Content  Part 2
+
+## GML Chapter 14
+
+**Ethical Issues in Conducting a Study**
+
+-   Ethical Principles in Human Research
+-   The Belmont Report
+-   ORI / IRB Approval
+
+# Ethical Principles in Human Research
+
+## Historical Overview
+
+Basically, people have done some messed up stuff.
+
+Led the federal government to establish regulations on the protection of human subjects.
+
+It mandated that there be institutional review boards at each research institution accepting federal funding to determine whether subjects were placed at risk and, if so, whether the risks so outweighed the benefits and importance of the knowledge to be gained that the subjects should be allowed to accept these risks.
+
+# The Belmont Report
+
+## Principles and Norms {.smaller}
+
+-   Respect for persons
+-   Beneficence
+-   Justice
+-   Voluntary Informed Consent
+-   Information
+-   Comprehension
+-   Voluntariness
+-   Privacy
+-   Assessment of Risks and Benefits
+
+## Ethical Issues in Sample Selection
+
+-   Cooperating Agencies
+-   Response Rate
+-   Dropouts
+
+## Ethical Issues in the Methods Section
+
+-   Deception
+-   Debriefing
+-   Experimental Research
+-   Nonexperimental and Qualitative Research
+-   Selection or Development of Instruments
+-   Procedures for Data Collection
+-   Confidentiality
+
+# IRBs and How They Work
+
+___ 
+
+![](Images/Bullies.png){fig-align="center"}
+
+___
+
+I am here to guide you through the process!
+
+An IRB or human subjects committee is a group that reviews proposals for studies with human participants before the research can begin.
+
+Week 4 Workshop will help you design your *research protocol*.
+
+## CITI Training
+
+![](Images/CITI.png){fig-align="center"}
+**DUE**: January 16th
+
+-   [Responsible Conduct of Research](https://www.research.uky.edu/responsible-conduct-research)
+-   [Group 2 Social/Behavioral Investigators and Key Personnel](https://www.research.uky.edu/office-research-integrity/human-subject-protection-hsp-training-faqs)
+
+## Summary {.smaller}
+
+-   Introductions
+-   Expectations
+    -   Student
+    -   Course
+    -   Professor
+-   Foundations
+    -   Definitions
+    -   Purposes
+    -   Dichotomies
+    -   Approaches
+-   Research Ethics
