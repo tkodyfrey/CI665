@@ -1,0 +1,502 @@
+---
+title: "Week 3: Conceptualizing Quant Comm Research"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [sky]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK_White.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: bottom
+editor: visual
+self-contained: true
+---
+
+## Overview {.smaller}
+
+-   BRIEF review
+-   Planning a Quant Research Project
+-   Key Terms!
+-   Using Stats in Quant Research
+-   Discussion: Different Perspectives
+-   Workshop: Setting up your research infrastructure
+    -   Getting situated with R
+    -   Understanding your research progression
+    -   Keeping track of your progress!
+
+# Old Content: Review!
+
+## Theory
+
+"A theory is a set of interrelated constructs (concepts), definitions, and propositions that present a systematic view of phenomena by specifying relations among the variables, with the purpose of explaining and (or) predicting the phenomena." (Kerlinger, 1986)
+
+"A theory is a way of making sense of a disturbing situation." (Kaplan, 1964)
+
+------------------------------------------------------------------------
+
+## Theory
+
+Dubin (1978)
+
+![](Images/Theory.jpg){.absolute top="25" right="225" width="450"}
+
+## Research Methods
+
+::: r-fit-text
+"The strategies and tools used to collect evidence necessary for building or testing explanations (theories) about that which is being studied."
+
+**Research**: "Disciplined method of gaining new information, building knowledge, or answering questions; also called disciplined inquiry; implies a *systematic* investigation with underlying guidelines regardless of the particular research paradigm."
+
+4 Broad Categories:
+
+-   Experiments
+-   Surveys
+-   Textual Analysis
+-   Naturalistic Inquiry
+:::
+
+------------------------------------------------------------------------
+
+::: r-fit-text
+### Textual Analysis
+
+-   Purpose is to describe and interpret the characteristics of a recorded or visual message.
+
+-   Focus is on content, structure, and functions of messages contained in texts.
+
+### Naturalistic Inquiry
+
+-   Purpose is to study people in the situations where they usually interact, behaving as they customarily do when engaged in everyday activity.
+
+-   Focus is on how people behave when they are absorbed in *genuine life experiences*.
+:::
+
+## Types of Research
+
+**What is the purpose of experimental research? What is its central characteristic?**
+
+. . .
+
+-   Purpose is to discover *causal* relationships between variables.
+-   *Control* is a central characteristic.
+
+------------------------------------------------------------------------
+
+**What is the purpose of survey research?**
+
+. . .
+
+-   Purpose is to discover how large groups of people think and act.
+-   Describes the characteristics of the respondents and the populations they were chosen to represent.
+
+------------------------------------------------------------------------
+
+**What five conditions must be met to trust generalizations made on the basis of quantitative survey methods?**
+
+. . .
+
+To make trusthworhty generalizations from surveys...
+
+-   Samples must be **representative**
+-   Response rates must be **sufficient**
+-   Questions must be **unbiased**
+-   Data collections procedures must be **uniform**
+-   Coding and analysis must be **accurate**
+
+------------------------------------------------------------------------
+
+The general framework for quantitative research includes 3 main approaches:
+
+-   Experimental
+-   Nonexperimental
+-   Descriptive
+
+## Nonexperimental
+
+The *comparative approach* also makes a comparison of a few groups on the dependent variables. However, the groups are based on an attribute independent variable, such as gender.
+
+The *associational approach*, sometimes called correlational, has two or more usually continuous variables for the same group of participants, which are related or associated.
+
+------------------------------------------------------------------------
+
+![](Images/Approach.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+**How is the post-positivist different from the constructivist communication researcher?**
+
+. . .
+
+::: r-fit-text
+In the postpositivist/quantitative framework, a specific plan is developed prior to the study.
+
+In the constructivist/ qualitative approach, less structure is placed on the use of specific guidelines in the research design.
+
+Derived from our metatheoretical assumptions:
+
+-   Epistemology
+    -   One truth \< - \> Multiple truths
+-   Ontology
+    -   Reactors \< - \> Humans as actors
+-   Axiology
+    -   Value neutral \< - \> Value laden
+:::
+
+------------------------------------------------------------------------
+
+**What is the BRIDGE between theory and research?**
+
+. . .
+
+"The **research hypothesis** is the **bridge** between **theory** and **research**."
+
+-   Metatheory drives Theory
+-   Theory drives RQs and Hs
+-   RQs and Hs drive Method(s)
+-   Method(s) drive Results
+-   Results drive Discussion
+
+------------------------------------------------------------------------
+
+**What is the PURPOSE of Quantitative Research?**
+
+. . .
+
+Quantitative research:
+
+-   Is *systematic*. It is intentional, replicable, and valid.
+-   Observes, explains, and predicts
+-   Tests theories that describe human behavior
+-   Answers questions of **group differences** or **variable relationships**
+
+------------------------------------------------------------------------
+
+**What are the three primary principles outlined in the Belmont Report?**
+
+. . .
+
+-   Respect for persons
+-   Beneficence
+-   Justice
+
+------------------------------------------------------------------------
+
+**What are 1-2 ethical issues related to conducting a study?**
+
+. . .
+
+-   Sample Selection
+-   Cooperating Agencies
+-   Response Rate
+-   Dropouts
+
+------------------------------------------------------------------------
+
+**What are 1-2 ethical issues related to quantitative methods?**
+
+. . .
+
+-   Deception
+-   Debriefing
+-   Experimental Research
+-   Nonexperimental and Qualitative Research
+-   Selection or Development of Instruments
+-   Procedures for Data Collection
+-   Confidentiality
+
+------------------------------------------------------------------------
+
+**What are 1-2 ethical issues related to data collection?**
+
+. . .
+
+-   Integrity of the Data
+-   Data Fabrication
+-   Data Falsification
+-   Conflict of Interest (COI)
+-   Conflict of Commitment
+-   Security of Data
+-   Authorship
+
+# GML Chapter 2
+
+------------------------------------------------------------------------
+
+![](Images/Steps.jpg){fig-align="center" width="434"}
+
+------------------------------------------------------------------------
+
+![](Images/Concept.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](Images/Step2.jpg){fig-align="center" width="434"}
+
+## Research Problems
+
+"It is usually a sentence or statement about the relationship between two or more variables" (GML, p. 23)
+
+Research problems commonly come from:
+
+-   Existing literature
+-   Theory
+-   Personal experience
+-   Clinical observation
+
+## Characteristics of Good Research Problems {.smaller}
+
+Good research problems are grounded in empirical and theoretical literature, stated clearly, testable, feasible, and of vital interest to *you*
+
+::: panel-tabset
+### Broad vs. Narrow
+
+Is this so broad that it isn't feasible?
+
+Is this so narrow that the impact will limited?
+
+### Widespread vs. Limited Interest
+
+Can make it hard to find literature or establish the gap that you will fill.
+
+### Well-research vs. Unknown Territory
+
+Is there a reason the thing you are interested in is unexplored?
+
+Quantitative researchers tend to place considerable emphasis on finding gaps in the literature so they tend to study relatively well-researched areas.
+:::
+
+## Characteristics of Good Problem Statements
+
+Reinard (1998) argues that good problem statements are NOT:
+
+-   Obvious yes or no answers
+-   Questions about applying a statistical tool
+-   Personal learning goals
+-   Things that have already been competently studied
+-   Questions that cannot be solved
+
+## Characteristics of Good Problem Statements
+
+Examples:
+
+-   What patterns of deceptive communication characterize close relationships?
+-   Do men and women report significantly different levels of satisfaction with conflict interaction?
+-   What is the relationship between the amount of television watched by adults and the level of anixety about personal safety?
+
+## Literature Review
+
+::: r-fit-text
+Of all the steps in the research process, reviewing the literature is one of the most important due to it being the fundamental step that can ensure a rigorous and meaningful research design and results
+
+-   Definition of the Literature Review
+-   Steps in the Literature Review Process
+-   Sources to Use in the Literature Review
+
+Basically, be thorough with your literature review so that (1) you have identified gaps, (2) your methods are appropriate, and (3) you know how your work connects to past work.
+:::
+
+## Summary
+
+![](Images/Steps.jpg){fig-align="center" width="434"}
+
+# GML Chapter 3
+
+------------------------------------------------------------------------
+
+## Concepts, Constructs, Variables
+
+These are *not* interchangeable
+
+-   **Concept** (Theoretical concept) - a mental representation (more abstract than a construct)
+-   **Construct** - a set of operational measures that allow for the study of a theoretical concept (less abstract than a concept)
+-   **Variable** - any measurable construct that has at least two values (different types or amounts)
+
+------------------------------------------------------------------------
+
+![](Images/Construct.png){fig-align="center" width="434"}
+
+------------------------------------------------------------------------
+
+**Isomorphism** refers to how well your conceptual definition of a construct matches your operationalization.
+
+![](Images/Defs.png){r-fig-align="center"}
+
+::: notes
+Give them handout #1
+:::
+
+## Independent Variables
+
+**Remember**: Variables are "any concept that has two or more values"
+
+![](Images/SmallDub.png){r-fig-align="center"}
+
+------------------------------------------------------------------------
+
+**"variables thought to influence changes in another variable (the dependent variable)."**
+
+Known as the IV (sometimes called explanatory variable or PREDICTOR variable in non-experimental research)
+
+When more than two independent variables are used in a "factorial design" the IVs are referred to as factors.
+
+## Dependent Variables
+
+**"variables are thought to be changed by another variable (the independent variable)."**
+
+Know as the DV (sometimes called outcome variable or CRITERION variable in non-experimental research)
+
+## IV vs DV
+
+![](Images/IV.png){r-fig-align="center"}
+
+In non-experimental research, the IV can be measured as well.
+
+------------------------------------------------------------------------
+
+![](Images/DV.png){r-fig-align="center"}
+
+::: notes
+Give them handout #2
+:::
+
+## Measurement Theory (Stevens, 1958)
+
+4 levels of measurement used to describe the range and the relationship among the values a variable can take.
+
+![](Images/Measure1.jpg){r-fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](Images/Measure2.png){r-fig-align="center"}
+
+::: notes
+Read Ch. 7 to position importance!
+:::
+
+## Questions vs. Hypotheses
+
+### Research Question
+
+"a formal question posed to guide research."
+
+**The explicit questions researchers ask about the variables that interest them.**
+
+### Research Hypothesis
+
+When researchers feel confident enough to make a prediction, they advance a hypothesis, or
+
+**"a tentative statement about the relationship between independent and dependent variable(s)."**
+
+------------------------------------------------------------------------
+
+A good hypothesis has 3 characteristics:
+
+-   Simple - concerned with only one aspect at a time
+-   Observable - related to the theory and can actually be observed
+-   Testable - Possible to actually make the observations involved
+
+------------------------------------------------------------------------
+
+The simplest way to phrase a hypothesis is to create a statement of simple relationships:
+
+There *will be a direct* (or positive, negative, inverse, or curvilinear) *relationship between* (insert favorite first variable of interest) *and* (insert favorite second variable of interest).
+
+OR
+
+As (insert favorite first variable of interest) increases (or decreases, etc.) the (insert favorite second variable of interest) decreases (or increases, etc.)
+
+------------------------------------------------------------------------
+
+Bostrom (1998):
+
+"Hypotheses repsent a formal testing of a theory and a research question represent a more general exploration of phenomena...the choice of hypotheses as opposed to research questions is determined largely by the state of theory in the area, the statistical procedure used, and the preferences of the researchers."
+
+------------------------------------------------------------------------
+
+![](Images/Types.jpg){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](Images/Types2.jpg){fig-align="center"}
+
+## Types of Hypotheses
+
+### Two-tailed
+
+"(two-direction or non-directional hypothesis) predicts a relationship without specifying the nature of that relationship"
+
+### One-tailed
+
+"(directional hypothesis) predicts a relationship between independent and dependent variable(s) and specifies the nature of that relationship."
+
+------------------------------------------------------------------------
+
+## Other Important terminology
+
+### Positive relationships
+
+direct relationships
+
+![](Images/Corr1.png){.absolute top="75" right="140"}
+
+### Negative relationships
+
+inverse relationships
+
+![](Images/Corr2.png){.absolute top="300" right="140"}
+
+------------------------------------------------------------------------
+
+## Correlation Coefficients
+
+![](Images/Corr4.png)
+
+------------------------------------------------------------------------
+
+![](Images/Corr3.png)
+
+------------------------------------------------------------------------
+
+### Main Effects
+
+"Effects of each IV working alone ."
+
+### Interaction Effects
+
+"Due to the effects of multiple IVs working together."
+
+::: notes
+Give them handout #3
+:::
+
+## Descriptives!
+
+![](Images/Tree.jpg)
+
+------------------------------------------------------------------------
+
+## Means, Variance, Standard Deviation, Standard Scores
+
+Keep track of the handout for now. We will get to these in Ch. 10 (Week 6)!
+
+::: notes
+Give them handout #4
+:::
+
+## Summary {.smaller}
+
+-   Review
+-   Steps in the Research Process
+-   Research Problems
+-   Key Terms
+
+## What's Next?
+
+**Planning and Designing Communication Research: Who Are You Studying?**
+
+At this point, you should have a basic understanding of what you want to study. The logical next step is to discuss how to select your sample and determine the number of people that you will need. Lecture topics also include tradeoffs across sampling approaches, internal and external validity, significance testing, and power.
