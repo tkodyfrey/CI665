@@ -4,7 +4,7 @@ author: "Dr. T. Kody Frey"
 institute: "Assistant Professor | School of Information Science" 
 format: 
   revealjs:
-    theme: [beige]
+    theme: [simple]
     slide-number: true
     preview-links: auto
     logo: Images/UK.png
@@ -14,14 +14,14 @@ format:
     navigation-mode: vertical
     fig-cap-location: bottom
 editor: visual
-self-contained: true
+self-contained: false
 ---
 
 ## Overview {.smaller}
 
 -   BRIEF review
--   Who Are You Studying?
--   Data Collection Techniques
+-   Internal Validity
+-   External Validity
 -   Discussion: Sampling!
 -   Workshop: Navigating the IRB
     -   Understanding the online process
@@ -75,7 +75,7 @@ During which phase of the research process cycle are Research Questions and/or H
 
 . . .
 
-Good research problems are grounded in empirical and theoretical literature, stated clearly, testable, feasible, and of vital interest to *you*
+Good research problems are grounded in empirical and theoretical literature, stated clearly, testable, feasible, and of vital interest to *you:*
 
 -   Simple
 -   Observable
@@ -113,7 +113,7 @@ When more than two independent variables are used in a "factorial design" the IV
 Know as the DV (sometimes called outcome variable or CRITERION variable in non-experimental research)
 :::
 
-___
+------------------------------------------------------------------------
 
 **What is the difference between a research question and a research hypothesis?**
 
@@ -165,17 +165,23 @@ The statistic that you ultimately employ should correspond with the RQ/Hypothesi
 
 ![](Images/Validity.png)
 
+## Contents
+
+-   Criteria for establishing causation
+-   Characteristics for evaluating internal validity
+-   Threats to internal validity
+
 ## What is Internal Validity?
 
 Internal validity is the extent to which we can infer that that IV caused the change in the DV.
 
 Internal validity depends on the strength or soundness of the design and influences whether one can conclude that the independent variable or intervention caused the dependent variable to change
 
-___
+------------------------------------------------------------------------
 
 *Randomized experiments* are the most likely to provide evidence that the independent variable caused changes in the dependent variable.
 
-Randomizing individuals into groups maximizes the likelihood that some shared characteristic or attribute is not influencing the IV-DV relationship. 
+Randomizing individuals into groups maximizes the likelihood that some shared characteristic or attribute is not influencing the IV-DV relationship.
 
 ## Causal Relationships
 
@@ -185,53 +191,53 @@ In order to infer that one variable caused a change in another:
 -   The IV must be related to the DV
 -   There must be no other variables that could explain why the IV is related to the DV
 
-_ _ _ 
+------------------------------------------------------------------------
 
 ## Causation in Descriptive Studies
 
-In purely descriptive studies there is no independent variable and no
-attempt to find relationships (causal or otherwise) between variables so the
-issue of causal relationships is not relevant.
+In purely descriptive studies there is no independent variable and no attempt to find relationships (causal or otherwise) between variables so the issue of causal relationships is not relevant.
 
-_ _ _ 
+------------------------------------------------------------------------
 
 ## Causation in Non-Experimental Studies
 
-The *quasi-experimental*, *comparative*, and *associational* approaches all attempt to identify relationships between variables. In published studies, these three approaches usually satisfy the second criterion; the independent variable is related to the dependent variables. 
+The *quasi-experimental*, *comparative*, and *associational* approaches all attempt to identify relationships between variables. In published studies, these three approaches usually satisfy the second criterion; the independent variable is related to the dependent variables.
 
 The first criterion, the independent variable precedes the dependent variable, also is often met, especially in quasi-experiments.
 
-_ _ _ 
+------------------------------------------------------------------------
 
 The third criterion for causation, ruling out other possible explanations, is never possible in the comparative and associational approaches and is problematic in all but the strongest quasi-experiments.
 
-TL;DR: If you aren't randomly assigning your participants to conditions, then you have a weak argument for causation. 
+TL;DR: If you aren't randomly assigning your participants to conditions, then you have a weak argument for causation.
 
 ## Evaluating Internal Validity
 
-Internal validity is evaluated based on: 
+Internal validity is evaluated based on:
 
 -   Equivalence of groups on participant characteristics
 -   Control of extraneous experiences and environment variables
 
 ## Equivalence of Groups
 
-Are the groups equivalent in all aspects prior to the induction of the IV? 
+Are the groups equivalent in all aspects prior to the induction of the IV?
 
 We ensure this through *random assignment*
 
 ::: panel-tabset
 ### Quasi-Experiments
+
 If people cannot be randomly assigned to groups, we can assign the treatment randomly to the people. For ex: assigning classes to specific conditions
 
 ### Comparative
+
 Groups being compared by attributes are seldom equivalent to one another.
 
 Can incorporate methods *after* the study to show some effort at internal validity.
 
 ### Association
-There is only one group! Nothing can demonstrate causation.
 
+There is only one group! Nothing can demonstrate causation.
 :::
 
 ## Extraneous Experiences
@@ -242,7 +248,7 @@ Do participants learn information about a study as they go?
 
 Are there environmental conditions that might influence participation?
 
-___
+------------------------------------------------------------------------
 
 A good study should be high in both areas!
 
@@ -257,10 +263,9 @@ If not, must be cautious about saying that IVs influenced, impacted, or caused D
 ## Threats to Equivalence of Groups
 
 ::: panel-tabset
-
 ### Regression
 
-Measurement is often reliable. Participants who score low on a measure may score higher (closer to the mean) the next time.
+Measurement is often unreliable. Participants who score low on a measure may score higher (closer to the mean) the next time.
 
 ### Attrition
 
@@ -269,7 +274,6 @@ Participants drop out for a number of reasons, but it influences group compositi
 ### Selection
 
 Problems are created when groups are assigned based on similarities - not randomness.
-
 :::
 
 ## Threats to Control of Extraneous Variables
@@ -297,12 +301,11 @@ Problems are created when groups are assigned based on similarities - not random
 
 **What is sampling?**
 
-*Sampling* is the process of selecting part of a larger group of participants with the intent of generalizing from the sample (the smaller group) to the population
-(the larger group).
+*Sampling* is the process of selecting part of a larger group of participants with the intent of generalizing from the sample (the smaller group) to the population (the larger group).
 
 *External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
 
-___
+------------------------------------------------------------------------
 
 ## Why sample?
 
@@ -313,7 +316,6 @@ ___
 ## Key Concepts
 
 ::: panel-tabset
-
 ### Theoretical population
 
 All the participants of theoretical interest to the research and to which he or she would like to generalize.
@@ -322,7 +324,7 @@ All the participants of theoretical interest to the research and to which he or 
 
 Also called *sampling frame*
 
-The group of participants you actually have access to, perhaps through a list or directory. 
+The group of participants you actually have access to, perhaps through a list or directory.
 
 ### Selected Sample
 
@@ -330,17 +332,16 @@ The smaller group of participants selected from the larger accessible population
 
 ### Actual Sample
 
-The participants that complete the study and whose data are actually used in the data analysis and in the report of the study’s results.
-
+The participants that complete the study and whose data are actually used in the data analysis and in the report of the study's results.
 :::
 
-___
+------------------------------------------------------------------------
 
 ![](Images/Sample)
 
-___ 
+------------------------------------------------------------------------
 
-The goal is for our sample to be representative of the target theoretical population. 
+The goal is for our sample to be representative of the target theoretical population.
 
 This maximizes *external validity*
 
@@ -364,7 +365,7 @@ No method to estimate probability of being included. *Sampling bias* automatical
 
 All involve randomization at some point!
 
-___
+------------------------------------------------------------------------
 
 ![](Images/Prob.png)
 
@@ -404,7 +405,7 @@ YES! Very much so.
 
 Larger samples will identify effects that smaller samples will not.
 
-___ 
+------------------------------------------------------------------------
 
 The general rule of thumb is that representativeness is more important than sample size.
 
@@ -438,7 +439,7 @@ AKA is the research environment similar to the natural environment? Does the man
 
 ![](Images/Summary.png)
 
-___
+------------------------------------------------------------------------
 
 *Random selection* is important for high external validity.
 
@@ -457,7 +458,7 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 
 ## Frey Facts
 
-Quant methods are not always about getting it right, but about defending your choices. 
+Quant methods are not always about getting it right, but about defending your choices.
 
 ![](Images/KF.jpeg){.r-stretch fig-align="center" height="400"}
 
