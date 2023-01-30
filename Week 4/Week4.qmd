@@ -14,7 +14,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: bottom
 editor: visual
-self-contained: false
+self-contained: true
 ---
 
 ## Overview {.smaller}
@@ -85,6 +85,8 @@ Good research problems are grounded in empirical and theoretical literature, sta
 ## Key Terms
 
 **What is the difference between a conceptual definition and an operational definition?**
+
+. . .
 
 These are *not* interchangeable
 
