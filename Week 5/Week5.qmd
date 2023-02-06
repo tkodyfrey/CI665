@@ -1,0 +1,616 @@
+---
+title: "Week 5: The Independent Variable"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [simple]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: bottom
+editor: visual
+self-contained: true
+---
+
+# Overview {.smaller}
+
+-   BRIEF review
+-   Research approaches in general (Ch. 4)
+-   Experimental designs (Chs. 5-6)
+-   Nonexperimental designs (Ch. 7)
+-   Discussion: The Independent Variable
+-   Workshop: Codebooks and Power! Oh my!
+
+# Brief Review
+
+## Key Terms
+
+**What is the difference between a conceptual definition and an operational definition?**
+
+. . .
+
+These are *not* interchangeable
+
+-   **Concept** (Theoretical concept) - a mental representation (more abstract than a construct)
+-   **Construct** - a set of operational measures that allow for the study of a theoretical concept (less abstract than a concept)
+
+------------------------------------------------------------------------
+
+**What is the difference between an independent and a dependent variable?**
+
+. . .
+
+::: panel-tabset
+
+### Independent Variable
+
+**"variables thought to influence changes in another variable (the dependent variable)."**
+
+Known as the IV (sometimes called explanatory variable or PREDICTOR variable in non-experimental research)
+
+When more than two independent variables are used in a "factorial design" the IVs are referred to as factors.
+
+### Dependent Variable
+
+**"variables are thought to be changed by another variable (the independent variable)."**
+
+Know as the DV (sometimes called outcome variable or CRITERION variable in non-experimental research)
+:::
+
+------------------------------------------------------------------------
+
+**What is the difference between experimental research and survey research?**
+
+. . .
+
+::: panel-tabset 
+
+### Experimental research {.smaller} 
+
+-   Purpose is to discover causal relationships between variables - Central characteristic is control
+
+### Survey research {.smaller}
+
+-   Purpose is to discover how large groups of people think and act
+-   Describes the characteristics of the respondents and the populations they were chosen to represent
+-   Focus is on beliefs, attitudes, and behaviors
+
+:::
+
+------------------------------------------------------------------------
+
+**Why is quantitative research important to the communication discipline?**
+
+. . .
+
+::: r-fit-text
+Among other reasons...
+
+-   Allows us to empirically test for patterns, causality, group differences, and theoretical propositions
+-   May not explain *why* a communicative phenomena occurred, but they do explain human behavior to fullest extent possible
+-   Allows us to explain, predict, control, and describe communication behavior
+-   Turn broad ideas in specific theoretical propositions
+-   Generalize findings to larger populations of people
+-   Allows us to control variables with a level of objective specificity that simply cannot be achieved through other approaches
+-   Reduce complex phenomena to measurable variables
+:::
+
+## Internal Validity
+
+### Characteristics
+
+**What are the two characteristics used to evaluate internal validity?**
+
+. . .
+
+Internal validity refers to the extent that the independent variable, treatment, or intervention caused the change in the dependent variable. We evaluate it based on...
+
+-   Equivalence of groups on participant characteristics
+-   Control of extraneous experiences and environment variables
+
+------------------------------------------------------------------------
+
+### Threats
+
+**What are the broad threats to internal validity?**
+
+. . .
+
+-   How the research is conducted (e.g., the tools or instruments used)
+-   The research participants (e.g., were they randomly assigned)
+-   The researchers themselves (e.g., how do independent raters judge behavior)
+
+::: notes
+Give them handout #1
+:::
+
+------------------------------------------------------------------------
+
+## External Validity {.smaller}
+
+### Sampling {.smaller}
+
+**What are the characteristics of a sample frame researchers should evaluate in determining its usefulness?**
+
+. . .
+
+The sampling frame represents an exhaustive list of the participants that a researcher could realistically access for a study.
+
+-   Is the frame representative of the theoretical population?
+-   Does the frame include an exhaustive list of potential participants?
+-   How was the frame obtained?
+
+------------------------------------------------------------------------
+
+::: r-fit-text
+**What are the *two* types of external validity**?
+
+*External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
+
+::: panel-tabset
+### Population external validity {.smaller}
+
+-   Was the *sampling frame* representative of the theoretical pop?
+-   Was the *selected sample* representative of the population?
+-   Was the *actual sample* representative of the population?
+
+### Ecological external validity {.smaller}
+
+Whether the conditions, settings, times, testers, or procedures are rep of natural conditions and so forth and, thus, whether results can be generalized to real life outcomes.
+
+AKA is the research environment similar to the natural environment? Does the manipulation of the IV feel real to the participants?
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Application
+
+::: r-fit-text
+
+Let's say your group wants to study men and womens' reactions to violent crime shows on national TV.
+
+-   What is the IV? DV? Constant?
+-   Is this an active or attribute IV?
+-   Is this an experimental or nonexperimental approach?
+-   If experimental, which kind? If nonexperimental, which kind?
+-   What would be an appropriate sampling technique for your group?
+-   What are some problems that could affect *internal* validity?
+-   What are some problems that could affect *external* validity?
+
+:::
+
+# GML Chapter 4
+
+## Research Approaches
+
+::: panel-tabset
+
+### Experimental {.smaller}
+
+-   Has *active* independent variable (intervention, new curriculum, treatment)
+-   Randomized Experimental
+-   Quasi-Experimental
+
+### Nonexperimental {.smaller}
+
+-   Has *attribute* independent variable (e.g., gender, GPA)
+-   Comparative
+-   Associational
+
+### Descriptive {.smaller}
+
+-   No IV!
+-   Describes current sample
+-   Often formative or exploratory
+:::
+
+------------------------------------------------------------------------
+
+![](images/Approach1.png)
+
+------------------------------------------------------------------------
+
+![](images/Approach2.png)
+
+------------------------------------------------------------------------
+
+## Experimental
+
+::: panel-tabset
+
+### Randomized Experimental Approach {.smaller}
+
+-   Must randomly assign participants to groups or conditions
+-   The IV must be ACTIVE
+    -   The researcher can control or manipulate levels of the IV
+    -   Attribute IV: Cannot be manipulated
+
+### Quasi-Experimental Approach {.smaller}
+
+-   Fails to satisfy condition of random assignment of participants to groups
+-   Typically see researchers assign *treatments* to groups
+:::
+
+------------------------------------------------------------------------
+
+![](images/Approach4.png)
+
+------------------------------------------------------------------------
+
+### Additional Notes
+
+::: columns
+::: {.column width="30%"}
+-   Randomness implies there is no bias
+-   Random sampling comes *before* random assignment
+:::
+
+::: {.column width="70%"}
+![](Images/Meme1.jpeg){.r-stretch}
+:::
+:::
+
+------------------------------------------------------------------------
+
+![](images/Approach3.png){.r-stretch fig-align="center"}
+
+------------------------------------------------------------------------
+
+::: r-fit-text
+Listed below are some differences among the five approaches to research. Match the description (A--E) that best fits the type of approach (a--e).
+
+::: columns
+::: {.column width="40%"}
+-   a.  Experimental
+-   b.  Quasi-experimental
+-   c.  Comparative
+-   d.  Associational
+-   e.  Descriptive
+:::
+
+::: {.column width="60%"}
+-   A. Compares groups
+-   B. Asks questions that describe the data
+-   C. Examines causality
+-   D. Associates the many levels of one variable with the many levels of another
+-   E. Randomized assignment, tries to determine causality
+:::
+:::
+:::
+
+# GML Chapter 5
+
+::: notes
+Give them handout #2
+:::
+
+## Types of Randomized and Quasi-Experimental Designs
+
+A specific research design helps us visualize the independent variables of the study, the levels within these independent variables, and when measurement of the dependent variable will take place.
+
+## Quasi-Experimental with Major Limitations
+
+-   One-Group Posttest-Only Design (p. 70)
+-   One-Group Pretest-Posttest Design (pp. 70-71)
+-   Posttest-Only Nonequivalent Groups Design (pp. 72-73)
+
+___
+
+![](Images/Meme4.jpeg){.r-stretch fig-align="center"}
+
+___
+
+## Better Quasi-Experimental Designs
+
+-   Pretest-Posttest Nonequivalent Comparison Group Designs
+-   Issues that determine strength of Quasi-Experimental Designs
+    -   Strong: Treatment randomly assigned
+    -   Moderate: Researcher takes advantage of existing situation
+    -   Weak: Participants assign themselves!
+
+------------------------------------------------------------------------
+
+![](images/Random1.png){.r-stretch fig-align="center"}
+
+___
+
+## Time Series Designs
+
+-   Single-Group Time-Series Designs
+    -   One-group pretest-posttest design
+    -   Single-group time-series design
+-   Multiple-Group Time-Series Designs
+    -   With temporary treatment
+    -   With continuous treatment
+
+## Randomized Experimental Designs
+
+-   Controlling for No-treatment Effects (pp. 79-80)
+-   Posttest-Only Control Group Design (pp. 80-81 )
+-   Pretest-Posttest Control Group Design (pp. 81-82)
+-   Solomon Four-Group Design (p. 83)
+-   Randomized Experimental Design with Matching (p. 83)
+-   Within-Subjects Randomized Experimental (or Crossover) Design
+
+___ 
+
+![](Images/Meme2.gif){.r-stretch fig-align="center"}
+
+------------------------------------------------------------------------
+
+::: r-fit-text
+You are a researcher in science education who is interested in the role of diagrams in instruction. You wish to investigate whether using diagrams in place of text will facilitate comprehension of the principles and concepts taught. To do so, you have developed a 12th-grade physics unit that incorporates the liberal use of diagrams. You plan to compare students' knowledge of physics before and after the instructional unit. You will teach one of your classes using the diagram unit and the other using the text-only unit.
+
+-   Identify the IV(s)
+-   Identify the DV(s)
+-   Identify the design name and evaluate its strength
+:::
+
+::: notes
+Instructional unit is ACTIVE IV.
+Physics knowledge is DV
+:::
+
+------------------------------------------------------------------------
+
+*Pretest--posttest nonequivalent comparison group design*
+
+Moderate strength quasi-experimental: assigning treatments nonrandomly to groups that are probably similar
+
+# GML Chapter 6-7
+
+## Single-subject Designs
+
+::: panel-tabset
+### ABAB (Reversal Designs)
+
+Establish baseline, give intervention, wait to level off, intervene again! AB -\> AB
+
+### Multiple Baselines
+
+-   Three baselines recorded simultaneously
+-   Researcher randomly intervenes on one while others are stable
+
+### Alternative Treatments
+
+-   Compares two different treatments on single subject
+-   Alternate treatments to establish response pattern
+:::
+
+## Why Single Subjects?
+
+Using very few participants increases the flexibility of the design and leads to completely different methods of data analysis. These single-subject designs use numerous repeated measures on each participant and the initiation and withdrawal of treatment.
+
+## Nonexperimental Approaches!!
+
+There is no *active* IV and the researcher does not control the IV.
+
+The IV is *measured* instead.
+
+## Types of Nonexperimental Designs
+
+Can you provide an example of each?
+
+::: panel-tabset
+
+### Descriptive {.smaller}
+
+-   Only considers 1 variable at a time
+-   Not interested in drawing inference
+-   Does not make comparisons or relationships
+
+### Comparative {.smaller}
+
+-   Cannot randomly assign to groups
+-   Examines presumed effects of attribute IV (e.g., age, gender, ethnicity)
+-   Still has two or more levels composing the IV
+
+### Association {.smaller}
+
+-   IV is continuous with 5 or more categories
+-   Everyone in single group
+-   Ex: Age and Self Concept; Hours watching TV and GPA
+:::
+
+# Summary {.smaller}
+
+![](Images/Meme3.jpeg){.r-stretch fig-align="center"}
+
+## Experiments vs. Surveys {.smaller}
+
+::: panel-tabset
+
+### Experiments
+
+-   *Active* independent variables
+-   Tests *causal* relationships
+-   Isolates specific relationships between variables of interest
+-   Controls extraneous influence
+-   Better suited for theory testing
+-   Conclusions better reflect true, meaningful, and observed relationships within a physical, tangible world
+
+### Surveys
+
+-   Non-experimental by nature
+-   Relies on attribute independent variables
+-   Examines the *presumed effect of IV on DV
+-   Suited to answer questions about preexisting attributes of persons or their ongoing environment that do not change 
+- Discovers how larger populations think and act without central component of control
+-   Sets the stage for later examining causality
+
+:::
+
+## What's Next?
+
+The first of our two lessons on measurement will be very broad, focusing on measurement theory and definitions. The goal is for you to leave class with a basic understanding of the differences between conceptual and operational approaches, as well as the general steps in developing a measure to adequately assess a variable of interest.
+
+# Creating a Codebook
+
+## What is a codebook?
+
+The codebook essentially has two functions:
+
+-   To provide a guide for the research team coding the data
+-   To document the data file's layout and code descriptions
+
+Basically, it helps you keep track of your data as it moves across various stages of the project.
+
+## What does it include? {.smaller}
+
+-   Survey objectives
+-   A description of the design and method
+-   A copy of the survey
+-   Steps for data cleaning and recording (so you can backtrack later)
+-   Conceptual definitions
+-   Operational definitions (i.e., the scales you used)
+-   Response formats (e.g., Likert, Thurstone, semantic differential)
+-   Descriptive info for measures (alpha or omega, means, SDs)
+-   Variable names and codes
+
+## Example: Instructor Background and Zoom Cameras
+
+### The Study
+
+![Title](Images/Code1.png){.r-stretch fig-align="center" height="350"}
+
+___
+
+![TOC](Images/Code2.png){.r-stretch fig-align="center"}
+
+___
+
+![Settings](Images/Code3.png){.r-stretch fig-align="center"}
+
+___
+
+![Conditions](Images/Code4.png){.r-stretch fig-align="center"}
+
+___
+
+![Manipulation Check](Images/Code5.png){.r-stretch fig-align="center"}
+
+___
+
+![DV](Images/Code6.png){.r-stretch fig-align="center"}
+
+___
+
+![Demos](Images/Code7.png){.r-stretch fig-align="center"}
+
+___
+
+## The Worst Case Scenario...
+
+The codebook helps you keep track of your steps.
+
+If you (or a reviewer) has an issue with your data, you have a map of everything that can be done! This allows for easy explanation and/or correction.
+
+## Next Steps for your Codebook? {.smaller}
+
+Right now, you are probably working on the IRB protocol. This involves knowing a few things:
+
+-   Some background literature
+-   The RQs or Hs
+-   The survey design
+-   Recruitment advertisements / messages
+-   The measures you want to use
+-   The sample you want to reach
+-   How many people you want to sample?
+
+Divide and Conquer.
+
+## Frey Facts
+
+Make your codebook however you want. Just keep good records.
+
+![](Images/Meme5.jpeg)
+
+# Power Analyses
+
+## What is power?
+
+Power is the probability of detecting an effect, given that the effect is really there.
+
+In other words, it is the *probability of rejecting the null hypothesis when it is in fact false*.
+
+## An example
+
+::: r-fit-text
+For example, let's say that we have a simple study with drug A and a placebo group, and that the drug truly is effective; the power is the probability of finding a difference between the two groups. So, imagine that we had a power of .8 and that this simple study was conducted many times. Having power of .8 means that 80% of the time, we would get a statistically significant difference between the drug A and placebo groups. This also means that 20% of the times that we run this experiment, we will not obtain a statistically significant effect between the two groups, even though there really is an effect in reality.
+:::
+
+## Other Definitions
+
+**Effect Size**: A numerical value representing the strength of the relationship between the IV and DV
+
+**Type I error**: Occurs when the null hypothesis is true (in other words, there really is no effect), but you reject the null hypothesis
+
+**Type II error**: A Type II error occurs when the alternative hypothesis is correct, but you fail to reject the null hypothesis (in other words, there really is an effect, but you failed to detect it)
+
+------------------------------------------------------------------------
+
+![](images/Type1.png)
+
+------------------------------------------------------------------------
+
+![](images/Type2.jpeg)
+
+------------------------------------------------------------------------
+
+::: panel-tabset
+### Alpha {.smaller}
+
+The probability of a Type I error (reject a true null).
+
+For a test with a level of significance of 0.05 = 1/20, a true null hypothesis will be rejected one out of every 20 times.
+
+We are willing to live with a 5% chance that we will conclude that there is a difference when there really isn't (we are 95% confident).
+
+### Beta {.smaller}
+
+The probability of a Type II error (fail to reject a false null)
+
+The probability that we would accept the null hypothesis even if the alternative hypothesis is actually true
+
+If power is .80 or 80%, then beta is .2 or 20%
+:::
+
+## Putting it all together
+
+If we want to avoid false positives (Type I), then we raise our confidence level (alpha)
+
+BUT, the more stringent we are at avoiding false positives, the more we increase the probability of a false negative
+
+## Why do it?
+
+-   To determine the appropriate *sample size* needed to detect a certain size effect
+-   To determine power given effect size and number of subjects
+    -   If you have 100 people available, you might need to know if it is worth doing the study
+-   It is good research!
+
+## Let's Try: G\*Power
+
+[Download G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower)
+
+![](images/Gpower.png)
+
+------------------------------------------------------------------------
+
+-   Test family:
+-   Statistical test
+-   Type of power analysis
+-   Input parameters:
+    -   Effect size
+    -   alpha (typically .05)
+    -   power (typically .80)
+-   Calculate!
+
+------------------------------------------------------------------------
+
+![](images/Gpower2.png)
