@@ -25,7 +25,7 @@ self-contained: true
 -   Workshop: Let's Measure
     -   Operationalizing Variables
     -   Applying to your study
-    
+
 ## What's Next?
 
 ![](images/Week.png){r-fig-align="center"}
@@ -426,7 +426,7 @@ Gives you a sense of the spread of the data
 
 Remember the normal curve?
 
-![](images/norm7.png){fig-align="center" width=2500}
+![](images/norm7.png){fig-align="center" width="2500"}
 
 If $\overline{x}$ = 70 and s = 15.22
 
@@ -461,11 +461,11 @@ Let's say $\overline{x}$ = 70 and s = 15.22 represent values for student test sc
 
 ## What makes this useful? {.smaller}
 
-Allows us to **categorize outliers** (if z \> 3.29 or 3 standard deviations) 
+Allows us to **categorize outliers** (if z \> 3.29 or 3 standard deviations)
 
 -   If a variable is perfectly normally distributed, only 0.1% of values fall outside this range.
 
-Allows you to **compare scores** on different tests. 
+Allows you to **compare scores** on different tests.
 
 -   Student with an exam score of 80 (in a class whose mean was 70 and **SD was 5**) has a z score of +2.0 and did relatively better than the student (in a class whose mean was 70 and SD was 15.22) who had a test score of 93 and z = 1.51.
 
@@ -489,13 +489,13 @@ Major Types of Data Collection Techniques:
 
 ## Researcher Observed Measures
 
-Direct Observation 
+Direct Observation
 
--   Trains observes to observe and record behaviors of participants in study 
--   Differs based on: 
-    -   Naturalness of the setting 
-    -   Degree of Observer Participation 
-    -   Amount of Detail 
+-   Trains observes to observe and record behaviors of participants in study
+-   Differs based on:
+    -   Naturalness of the setting
+    -   Degree of Observer Participation
+    -   Amount of Detail
     -   Breadth of Coverage
 
 ## Tests and Documents
@@ -533,7 +533,7 @@ Survey research methods!
 -   Formulate answers in own words
     -   Demanding for participants
     -   Especially useful to build knowledge for closed ended questions!
-        
+
 ### Partially open-ended unordered items
 
 -   Give possible answers then have space for response or comments
@@ -548,16 +548,15 @@ Survey research methods!
 -   Ordered choices
     -   Probably what you see most often in measures of attitude
     -   All allowable responses given
-    
 :::
 
 ## Final Thoughts:
 
 **WHY is the measurement theory important in quantitative statistical analysis??**
 
-BOTTOM LINE:  Levels of measurement influence the appropriate use of statistics!
+BOTTOM LINE: Levels of measurement influence the appropriate use of statistics!
 
-___ 
+------------------------------------------------------------------------
 
 ## Frey Facts
 
@@ -571,7 +570,7 @@ Scale development is useful for capturing not directly observable concepts
 
 -   This is what is meant by 'latent'
 
-___ 
+------------------------------------------------------------------------
 
 ![](images/Steps.png){fig-align="center"}
 
@@ -588,7 +587,7 @@ For your projects...
 General Guidelines
 
 -   Language is simple, straightforward, and appropriate for reading level
--   Ask about one (and ONLY one) issue 
+-   Ask about one (and ONLY one) issue
     -   Avoid double-barreled
 -   Questions should not be LOADED (leading)
 -   Avoid using emotionally charged language
@@ -598,14 +597,13 @@ General Guidelines
 -   Avoid mixing items that assess behaviors with items that assess affective responses
     -   Ex: My boss is hardworking vs I respect my boss
 
-
 ## Developing an item pool
 
 Fundamental goal at this stage is to sample systematically all content that is potentially relevant to the target construct.
 
 You will drop weak items but cannot add them back.
 
-Recommend Likert scale but you can use semantic differential if you really want. 
+Recommend Likert scale but you can use semantic differential if you really want.
 
 ## This Workshop
 
@@ -621,4 +619,3 @@ Recommend Likert scale but you can use semantic differential if you really want.
 -   Read items closely
     -   Does the wording make sense?
     -   Do the items reflect the definition?
-  
