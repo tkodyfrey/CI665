@@ -46,7 +46,6 @@ These are *not* interchangeable
 . . .
 
 ::: panel-tabset
-
 ### Independent Variable
 
 **"variables thought to influence changes in another variable (the dependent variable)."**
@@ -68,9 +67,8 @@ Know as the DV (sometimes called outcome variable or CRITERION variable in non-e
 
 . . .
 
-::: panel-tabset 
-
-### Experimental research {.smaller} 
+::: panel-tabset
+### Experimental research {.smaller}
 
 -   Purpose is to discover causal relationships between variables - Central characteristic is control
 
@@ -79,7 +77,6 @@ Know as the DV (sometimes called outcome variable or CRITERION variable in non-e
 -   Purpose is to discover how large groups of people think and act
 -   Describes the characteristics of the respondents and the populations they were chosen to represent
 -   Focus is on beliefs, attitudes, and behaviors
-
 :::
 
 ------------------------------------------------------------------------
@@ -172,17 +169,12 @@ AKA is the research environment similar to the natural environment? Does the man
 ## Application
 
 ::: r-fit-text
-
 Let's say your group wants to study men and womens' reactions to violent crime shows on national TV.
 
 -   What is the IV? DV? Constant?
--   Is this an active or attribute IV?
--   Is this an experimental or nonexperimental approach?
--   If experimental, which kind? If nonexperimental, which kind?
 -   What would be an appropriate sampling technique for your group?
 -   What are some problems that could affect *internal* validity?
 -   What are some problems that could affect *external* validity?
-
 :::
 
 # GML Chapter 4
@@ -190,7 +182,6 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 ## Research Approaches
 
 ::: panel-tabset
-
 ### Experimental {.smaller}
 
 -   Has *active* independent variable (intervention, new curriculum, treatment)
@@ -223,7 +214,6 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 ## Experimental
 
 ::: panel-tabset
-
 ### Randomized Experimental Approach {.smaller}
 
 -   Must randomly assign participants to groups or conditions
@@ -267,11 +257,25 @@ Listed below are some differences among the five approaches to research. Match t
 
 ::: columns
 ::: {.column width="40%"}
--   a.  Experimental
--   b.  Quasi-experimental
--   c.  Comparative
--   d.  Associational
--   e.  Descriptive
+-   
+
+    a.  Experimental
+
+-   
+
+    b.  Quasi-experimental
+
+-   
+
+    c.  Comparative
+
+-   
+
+    d.  Associational
+
+-   
+
+    e.  Descriptive
 :::
 
 ::: {.column width="60%"}
@@ -300,11 +304,11 @@ A specific research design helps us visualize the independent variables of the s
 -   One-Group Pretest-Posttest Design (pp. 70-71)
 -   Posttest-Only Nonequivalent Groups Design (pp. 72-73)
 
-___
+------------------------------------------------------------------------
 
 ![](Images/Meme4.jpeg){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ## Better Quasi-Experimental Designs
 
@@ -318,7 +322,7 @@ ___
 
 ![](images/Random1.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ## Time Series Designs
 
@@ -338,7 +342,7 @@ ___
 -   Randomized Experimental Design with Matching (p. 83)
 -   Within-Subjects Randomized Experimental (or Crossover) Design
 
-___ 
+------------------------------------------------------------------------
 
 ![](Images/Meme2.gif){.r-stretch fig-align="center"}
 
@@ -353,8 +357,7 @@ You are a researcher in science education who is interested in the role of diagr
 :::
 
 ::: notes
-Instructional unit is ACTIVE IV.
-Physics knowledge is DV
+Instructional unit is ACTIVE IV. Physics knowledge is DV
 :::
 
 ------------------------------------------------------------------------
@@ -398,7 +401,6 @@ The IV is *measured* instead.
 Can you provide an example of each?
 
 ::: panel-tabset
-
 ### Descriptive {.smaller}
 
 -   Only considers 1 variable at a time
@@ -425,7 +427,6 @@ Can you provide an example of each?
 ## Experiments vs. Surveys {.smaller}
 
 ::: panel-tabset
-
 ### Experiments
 
 -   *Active* independent variables
@@ -439,11 +440,10 @@ Can you provide an example of each?
 
 -   Non-experimental by nature
 -   Relies on attribute independent variables
--   Examines the *presumed effect of IV on DV
--   Suited to answer questions about preexisting attributes of persons or their ongoing environment that do not change 
-- Discovers how larger populations think and act without central component of control
+-   Examines the \*presumed effect of IV on DV
+-   Suited to answer questions about preexisting attributes of persons or their ongoing environment that do not change
+-   Discovers how larger populations think and act without central component of control
 -   Sets the stage for later examining causality
-
 :::
 
 ## What's Next?
@@ -479,31 +479,31 @@ Basically, it helps you keep track of your data as it moves across various stage
 
 ![Title](Images/Code1.png){.r-stretch fig-align="center" height="350"}
 
-___
+------------------------------------------------------------------------
 
 ![TOC](Images/Code2.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ![Settings](Images/Code3.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ![Conditions](Images/Code4.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ![Manipulation Check](Images/Code5.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ![DV](Images/Code6.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ![Demos](Images/Code7.png){.r-stretch fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 ## The Worst Case Scenario...
 

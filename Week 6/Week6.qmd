@@ -1,0 +1,624 @@
+---
+title: "Week 6: Measuring the Dependent Variable I"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [beige]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: bottom
+editor: visual
+self-contained: true
+---
+
+## Overview {.smaller}
+
+-   BRIEF review
+-   Measurement and Dependent Variables: Part 1
+-   Discussion: Building Meaningful Measures
+-   Workshop: Let's Measure
+    -   Operationalizing Variables
+    -   Applying to your study
+    
+## What's Next?
+
+![](images/Week.png){r-fig-align="center"}
+
+# Old Content: Review!
+
+## Internal Validity
+
+### What is it?
+
+. . .
+
+Internal validity is the extent to which we can infer that that IV caused the change in the DV.
+
+Internal validity depends on the strength or soundness of the design and influences whether one can conclude that the independent variable or intervention caused the dependent variable to change
+
+------------------------------------------------------------------------
+
+### Characteristics
+
+**What are the two characteristics used to evaluate internal validity?**
+
+. . .
+
+Internal validity refers to the extent that the independent variable, treatment, or intervention caused the change in the dependent variable. We evaluate it based on...
+
+-   Equivalence of groups on participant characteristics
+-   Control of extraneous experiences and environment variables
+
+------------------------------------------------------------------------
+
+### Threats
+
+**What are the broad threats to internal validity?**
+
+. . .
+
+-   How the research is conducted (e.g., the tools or instruments used)
+-   The research participants (e.g., were they randomly assigned)
+-   The researchers themselves (e.g., how do independent raters judge behavior)
+
+**Remember the sheet I gave you!**
+
+------------------------------------------------------------------------
+
+### Threats to Equivalence of Groups
+
+::: panel-tabset
+### Regression
+
+Measurement is often unreliable. Participants who score low on a measure may score higher (closer to the mean) the next time.
+
+### Attrition
+
+Participants drop out for a number of reasons, but it influences group composition.
+
+### Selection
+
+Problems are created when groups are assigned based on similarities - not randomness.
+:::
+
+------------------------------------------------------------------------
+
+### Threats to Control of Extraneous Variables
+
+-   Maturation
+-   History
+-   Testing
+-   Instrumentation
+-   Interactive Threats
+-   Ambiguous Temporal Precedence (Time)
+
+------------------------------------------------------------------------
+
+### Threats RA does NOT eliminate?
+
+-   People talk
+-   Expectation effects (Hawthorne)
+-   Observer bias
+
+------------------------------------------------------------------------
+
+## External Validity {.smaller}
+
+. . .
+
+### What is it?
+
+*External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
+
+------------------------------------------------------------------------
+
+### Sampling Levels
+
+. . .
+
+::: panel-tabset
+### Theoretical population
+
+All the participants of theoretical interest to the research and to which he or she would like to generalize.
+
+### Accesible Population
+
+Also called *sampling frame*
+
+The group of participants you actually have access to, perhaps through a list or directory.
+
+### Selected Sample
+
+The smaller group of participants selected from the larger accessible population by the researcher and asked to participate in the study.
+
+### Actual Sample
+
+The participants that complete the study and whose data are actually used in the data analysis and in the report of the study's results.
+:::
+
+------------------------------------------------------------------------
+
+### Sampling {.smaller}
+
+**What are the characteristics of a sample frame researchers should evaluate in determining its usefulness?**
+
+. . .
+
+The sampling frame represents an exhaustive list of the participants that a researcher could realistically access for a study.
+
+-   Is the frame representative of the theoretical population?
+-   Does the frame include an exhaustive list of potential participants?
+-   How was the frame obtained?
+
+------------------------------------------------------------------------
+
+### Ensuring Representativeness
+
+How do we ensure that a sample is representative of the target theoretical population?
+
+. . .
+
+*Random selection* is important for high external validity.
+
+*Random assignment* is important for high internal validity.
+
+------------------------------------------------------------------------
+
+### Types of Sampling
+
+::: r-fit-text
+::: panel-tabset
+### Probability Sampling {.smaller}
+
+Everyone has a known, nonzero change of being chosen:
+
+-   Simple Random Sample
+-   Systematic Random Sampling
+-   Stratified Random Sample
+-   Stratified with Diff Probs of Being Selected
+-   Cluster (Random) Sampling
+
+### Nonprobability Sampling {.smaller}
+
+No method to estimate probability of being included:
+
+-   Quota Sampling
+-   Purposive Sampling
+-   Purposeful Sampling
+-   Convenience Sampling
+-   Snowball Sampling
+:::
+:::
+
+::: notes
+Give them the sampling handout here
+:::
+
+------------------------------------------------------------------------
+
+### Types
+
+::: r-fit-text
+**What are the *two* types of external validity**?
+
+*External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
+
+::: panel-tabset
+### Population external validity {.smaller}
+
+-   Was the *sampling frame* representative of the theoretical pop?
+-   Was the *selected sample* representative of the population?
+-   Was the *actual sample* representative of the population?
+
+### Ecological external validity {.smaller}
+
+Whether the conditions, settings, times, testers, or procedures are rep of natural conditions and so forth and, thus, whether results can be generalized to real life outcomes.
+
+AKA is the research environment similar to the natural environment? Does the manipulation of the IV feel real to the participants?
+:::
+:::
+
+## Other Types of Validity?
+
+![](images/Validity.png)
+
+## Power
+
+::: r-fit-text
+Power is the probability of detecting an effect, given that the effect is really there.
+
+In other words, it is the *probability of rejecting the null hypothesis when it is in fact false*.
+
+::: panel-tabset
+### Alpha {.smaller}
+
+The probability of a Type I error (reject a true null).
+
+For a test with a level of significance of 0.05 = 1/20, a true null hypothesis will be rejected one out of every 20 times.
+
+We are willing to live with a 5% chance that we will conclude that there is a difference when there really isn't (we are 95% confident).
+
+### Beta {.smaller}
+
+The probability of a Type II error (fail to reject a false null)
+
+The probability that we would accept the null hypothesis even if the alternative hypothesis is actually true
+
+If power is .80 or 80%, then beta is .2 or 20%
+:::
+:::
+
+## Key Terms
+
+**What is the difference between a conceptual definition and an operational definition?**
+
+. . .
+
+These are *not* interchangeable
+
+-   **Concept** (Theoretical concept) - a mental representation (more abstract than a construct)
+-   **Construct** - a set of operational measures that allow for the study of a theoretical concept (less abstract than a concept)
+
+------------------------------------------------------------------------
+
+## Experiments vs. Surveys {.smaller}
+
+::: panel-tabset
+### Experiments
+
+-   *Active* independent variables
+-   Tests *causal* relationships
+-   Isolates specific relationships between variables of interest
+-   Central characteristic is *control*
+-   Better suited for theory testing
+-   Conclusions better reflect true, meaningful, and observed relationships within a physical, tangible world
+
+### Surveys
+
+-   Non-experimental by nature
+-   Relies on attribute independent variables
+-   Examines the *presumed* effect of IV on DV
+-   Suited to answer questions about preexisting attributes of persons or their ongoing environment that do not change
+-   Discovers how larger populations think and act without central component of control
+-   Sets the stage for later examining causality
+:::
+
+## IVs and DVs
+
+::: r-fit-text
+When we discussed the IV, we discussed designing experiments that allow us to *control* the variable of interest.
+
+In other cases, the variables we are interested in might be *continuous*.
+
+This is most often the *dependent* variable (i.e., what is thought to be changed by the IV)
+:::
+
+# Measurement: Dependent Variables Part I
+
+## Measurement Theory (Stevens, 1958)
+
+4 levels of measurement used to describe the range and the relationship among the values a variable can take.
+
+![](images/Measure1.jpg){r-fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Measure2.png){r-fig-align="center"}
+
+## Why is this important?
+
+Depending on the level, the data can mean different things.
+
+For example, the number 2 might indicate a score of two; it might indicate that the participant was a male; or it might indicate that the participant was ranked second in the class.
+
+## Normality
+
+The normal curve provides a model for the fit of the distributions of many of the dependent variables used in the behavioral sciences.
+
+![](images/norm6.png){.r-stretch fig-align="center"}
+
+## Definitions
+
+**X axis**: scores or responses on an ordered variable from very low to very high
+
+**Y axis**: number of participants with a particular response
+
+## Applying to the curve
+
+![](images/norm6.png){.r-stretch fig-align="center"}
+
+## More on the Normal Curve
+
+Think of it as a *probability* distribution
+
+What is the probability of a participant's typical response?
+
+If externally valid, should align with probability distribution of the theoretical population.
+
+## Properties {.smaller}
+
+5 properties that are ALWAYS present:
+
+-   Its unimodal
+    -   Only has 1 hump in the middle
+-   Mean, median, mode are equal
+-   Curve is symmetric; it is not skewed
+-   Range is infinite
+    -   Extremes approach but never touch the x
+-   Neither too peaked or too flat
+    -   It has no kurtosis
+    -   leptokurtic
+    -   platokurtic
+
+------------------------------------------------------------------------
+
+![](images/Dist.png){.r-stretch fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Normally distributed variables
+
+Ordered from low to high, responses are at least approximately normally distributed in the population from which the sample as selected
+
+**A number of statistical tests rely on the assumption that the distribution is normal**
+
+## Descriptive Statistics: Central Tendency
+
+::: r-fit-text
+::: panel-tabset
+### Mean
+
+-   Sum of raw scores divided by number of observations in the sample
+-   Arithmetic average
+-   Appropriate for normal data
+
+### Median
+
+-   The mid-point of the raw scores in a sample
+-   Appropriate for ordinal or skewed data
+
+### Mode
+
+-   Equal to the raw score that appears most frequently
+-   Least precise
+-   Useful for nominal or dichotomous data or few categories
+:::
+:::
+
+## Which do I use?
+
+When data are normally distributed, the mean, median, and mode are all the same and in the center of the distribution.
+
+If data are normal, mean is the stat to use.
+
+## Descriptive Statistics: Variability
+
+Variability describes the spread or dispersion of the scores.
+
+If all scores are the same, there is no variation.
+
+## Application!
+
+In your research, you test to see if an IV can explain the variation in the DV.
+
+Is the IV the reason that the **values of the DV varied from person to person?**
+
+## Descriptive Statistics: Variability
+
+Standard Deviation is the most common. It is a measure of how scores vary about the mean.
+
+Gives you a sense of the spread of the data
+
+-   Are they close to the mean or all apart?
+-   How much variability is in the sample?
+
+------------------------------------------------------------------------
+
+![](images/SD1.png){.r-stretch}
+
+------------------------------------------------------------------------
+
+Remember the normal curve?
+
+![](images/norm7.png){fig-align="center" width=2500}
+
+If $\overline{x}$ = 70 and s = 15.22
+
+For population: $\mu$ = 70 and $\sigma^2$ = 15.22
+
+## Standardizing the Normal Curve
+
+Can convert a normal curve into a standard curve by setting mean equal to zero and SD equal to 1
+
+Calculated by subtracting the mean from each data point, and then dividing the difference by the standard deviation of the population
+
+Proportions are always the same. This allows comparisons for curves with different means
+
+## Z-Scores
+
+A standard score that indicates the number of standard deviation units that a person's score deviates from the group mean
+
+## An Example {.smaller}
+
+::: columns
+::: {.column width="40%"}
+Let's say $\overline{x}$ = 70 and s = 15.22 represent values for student test scores.
+
+-   A student who had 93 on the test would have a z score of **+1.51 (93--70 ÷ 15.22)**
+-   A student who scored 43 had a **z of --1.77**.
+:::
+
+::: {.column width="60%"}
+![](images/norm7.png){fig-align="center"}
+:::
+:::
+
+## What makes this useful? {.smaller}
+
+Allows us to **categorize outliers** (if z \> 3.29 or 3 standard deviations) 
+
+-   If a variable is perfectly normally distributed, only 0.1% of values fall outside this range.
+
+Allows you to **compare scores** on different tests. 
+
+-   Student with an exam score of 80 (in a class whose mean was 70 and **SD was 5**) has a z score of +2.0 and did relatively better than the student (in a class whose mean was 70 and SD was 15.22) who had a test score of 93 and z = 1.51.
+
+------------------------------------------------------------------------
+
+![](images/norm8.png){.r-stretch fig-align="center"}
+
+# Back to Ch. 13: Data Collection Techniques
+
+What techniques and instruments do we use to collect data?
+
+Major Types of Data Collection Techniques:
+
+-   Researcher observed measures
+-   Tests and Documents
+-   Self-report measures
+
+## Overview
+
+![](images/Tech.png){.r-stretch fig-align="center"}
+
+## Researcher Observed Measures
+
+Direct Observation 
+
+-   Trains observes to observe and record behaviors of participants in study 
+-   Differs based on: 
+    -   Naturalness of the setting 
+    -   Degree of Observer Participation 
+    -   Amount of Detail 
+    -   Breadth of Coverage
+
+## Tests and Documents
+
+A set of problems with right or wrong answers
+
+-   Standardized tests
+-   Achievement Tests
+-   Performance and Authentic Assessments
+-   Aptitude tests
+-   Documents
+
+## Self-Report Measures
+
+::: columns
+::: {.column width="30%"}
+-   Standardized Personality Inventories
+-   Attitude scales
+    -   Summated Likert scale
+    -   Semantic Differential
+:::
+
+::: {.column width="70%"}
+![](images/Lick1.png){fig-align="center"}
+:::
+:::
+
+## Questionnaires and Interviews {.smaller}
+
+Survey research methods!
+
+::: panel-tabset
+### Open ended questions
+
+-   Formulate answers in own words
+    -   Demanding for participants
+    -   Especially useful to build knowledge for closed ended questions!
+        
+### Partially open-ended unordered items
+
+-   Give possible answers then have space for response or comments
+    -   People usually don't use the spaces or give useful info
+
+### Closed ended unordered items
+
+-   Used when answers to a question fit nominal categories that do not fall on a continuum
+
+### Closed ended questions
+
+-   Ordered choices
+    -   Probably what you see most often in measures of attitude
+    -   All allowable responses given
+    
+:::
+
+## Final Thoughts:
+
+**WHY is the measurement theory important in quantitative statistical analysis??**
+
+BOTTOM LINE:  Levels of measurement influence the appropriate use of statistics!
+
+___ 
+
+## Frey Facts
+
+In general, it is advisable to select instruments that have been used in other studies if they have been shown to produce *reliable* and *valid* data with the types of participants and for the purpose that you have in mind.
+
+If those aren't available...
+
+# Developing a Measure
+
+Scale development is useful for capturing not directly observable concepts
+
+-   This is what is meant by 'latent'
+
+___ 
+
+![](images/Steps.png){fig-align="center"}
+
+## Associated Steps
+
+For your projects...
+
+-   Need to *define* what you are interested in
+-   Need to create *multiple items* to capture abstract constructs
+-   Will use EFA to reduce multiple items down to meaningful few
+
+## Phrasing items and questions {.smaller}
+
+General Guidelines
+
+-   Language is simple, straightforward, and appropriate for reading level
+-   Ask about one (and ONLY one) issue 
+    -   Avoid double-barreled
+-   Questions should not be LOADED (leading)
+-   Avoid using emotionally charged language
+-   Avoid double negatives
+-   Avoid trendy expressions-
+-   Avoid items everyone or no one will endorse
+-   Avoid mixing items that assess behaviors with items that assess affective responses
+    -   Ex: My boss is hardworking vs I respect my boss
+
+
+## Developing an item pool
+
+Fundamental goal at this stage is to sample systematically all content that is potentially relevant to the target construct.
+
+You will drop weak items but cannot add them back.
+
+Recommend Likert scale but you can use semantic differential if you really want. 
+
+## This Workshop
+
+-   Pick a concept that your group wants to measure for project
+-   Write a definition
+-   Come up with 25-30 items based on that definition
+-   Focus groups!! Use OneDrive doc on Canvas
+
+## Reviewers
+
+-   Read definition closely
+    -   What is missing or runs counter to your knowledge?
+-   Read items closely
+    -   Does the wording make sense?
+    -   Do the items reflect the definition?
+  
