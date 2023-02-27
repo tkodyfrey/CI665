@@ -1,0 +1,358 @@
+---
+title: "Week 8: Making Sense of Your Data"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [moon]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: top
+editor: visual
+self-contained: true
+---
+
+## Overview {.smaller}
+
+-   Q&A: Where are the Rakes?
+-   Making Sense of Your Data
+-   Continuing to Make Sense of Your Data
+-   Workshop: Survey Construction in Qualtrics
+
+## What's Next?
+
+![](images/Week.png){fig-align="center"}
+
+# The Midterm
+
+What are the *key* areas that need more explanation?
+
+# Making Sense of Your Data
+
+The content this week is designed to help you understand what to do with data once it is collected. Before you can start to analyze, you have to get a better idea of what you are working with.
+
+We have a whole WORKDAY planned for your actual data in Week 14.
+
+# Key Terms
+
+Let's make sure we are all on the same page regarding some key terms.
+
+## Types of Statistics
+
+::: panel-tabset
+### Descriptive Statistics
+
+Summarize data from the current sample of participants *without* making inferences about the larger population of interest.
+
+Averages, percentages, frequencies
+
+### Inferential Statistics
+
+Make inferences about a larger group, the population, from the group studied,
+
+*t*-tests, *F*-tests, correlation, regression
+:::
+
+## Types of Testing
+
+::: panel-tabset
+### Nonparametric Tests
+
+*Inferential* statistics that are used when the data do not meet the assumption normality.
+
+Chi-square test of independence, Mann-Whitney U Test, Fisher Exact Test
+
+### Parametric Tests
+
+*Inferential* statistics that assume data are normally distributed.
+
+*t*-tests, *F*-tests
+:::
+
+## Normality?
+
+![The normal distribution](images/Norm.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Normality!
+
+![The normal distribution applied to hypothesis testing](images/Norm2.png){fig-align="center"}
+
+## Assumptions {.smaller}
+
+To use parametric statistics, you have to meet three assumptions:
+
+::: panel-tabset
+### Normality
+
+The DV (or IV if continuous) need to come from a population that is *normally distributed*
+
+Most tests tolerate a good degree of violation, so approximately normal is fine.
+
+### Homogeneity of Variance
+
+Samples in study have equal variation among members.
+
+Some violation is okay, but too much can lead to Type I error.
+
+### Independence
+
+Observations must be independent!
+
+Scores cannot be influenced or contingent on one another.
+
+Ex: Students in the same class answering questions about their teacher.
+:::
+
+## Manipulation Checks
+
+Used to ensure that your control of the *active* independent variable was successful.
+
+For example, if test messages, we need to ensure that participants noticed the difference they were supposed to notice.
+
+Can often be accomplished with a few questions (Ex: What was the name of the influencer who made the post?)
+
+## Pilot Testing
+
+To add more assurance that our manipulations and measures will work, we often want to pilot test them.
+
+A form of qualitative checking!
+
+How do similar samples interpret the different conditions or understand the measures?
+
+# Looking at Some Data
+
+Context: Working study on the effects perceived *instructor strictness* on motivation, interest, engagement, cognitive learning.
+
+## Understanding the Space
+
+![](images/Data.png){fig-align="center"}
+
+## Important Pieces
+
+-   Data View vs. Variable View
+-   Cases and Columns
+-   Variable Names, Labels, and Values
+-   Analyze: Descriptive Statistics
+-   Pairwise vs. Listwise
+
+## Getting an Accurate File {.smaller}
+
+When you pull your data, there will be a lot there. Some considerations:
+
+-   Eliminate data you do not plan to use like geographical conditions
+-   Screen for participants who did not complete survey
+-   Use time as a criterion
+    -   My rule of thumb is under 4 minutes or over 18 hours
+-   Recode early
+-   Dichotomous data is meaningful!
+
+**Transform \> Recode Into Same Variables \> Select Cases \> Old and New Values \> Enter Values \> Add \> Repeat**
+
+## Checking for Accuracy
+
+Look at the frequency distributions for your items
+
+**Analyze \> Descriptive Statistics \> Descriptives \> Enter Variables \> Options (Mean, Std. deviation, minimum, maximum) \> OK**
+
+## Missing Data
+
+The key is *consistency*; establish rules and apply them
+
+MAR, MNAR, MCAR
+
+## Exploring Missing Data
+
+Let the software do the work for you.
+
+**Descriptive Statistics -\> Explore -\> Add Variables to Dependent List -\> Statistics (Check Outliers) -\>Plots (Histogram & Normality plot) -\> Options (Exclude cases pairwise) -\> OK**
+
+## Dealing with Missing Data
+
+-   Mean Imputation
+-   Series Mean
+-   Leaving 'em blank
+-   Replacing with 999
+
+## Calculating Composites
+
+We create summed scores (or composites) of variables to reduce the number of items we have to analyze (among other reasons).
+
+**Transform \> Compute Variable \> Target Variable \> Numeric Expression \> Create formula for average of total items used in instrument \> OK**
+
+**(SUM(EvalStrict1 to EvalStrict_12)/12)**
+
+## Exploring Composites
+
+We want to examine *mean*, *variance*, *skewness*, *kurtosis*
+
+Using the composite variables, we run this code again:
+
+**Descriptive Statistics -\> Explore -\> Add *Composite* Variables to Dependent List -\> Statistics (Check Outliers) -\>Plots (Histogram & Normality plot) -\> Options (Exclude cases pairwise) -\> OK**
+
+## Interpretation {.smaller}
+
+What patterns do the histograms reveal? Does the data look normally distributed?
+
+Are skewness and kurtosis \> +2 or \< -2? These are *extreme* scores.
+
+Want plotted observed value to closely resemble expected value.
+
+Significant Shapiro-Wilk and Kolmogorov-Smirnov test of normality mean data are NOT distributed normally.
+
+## Converting to Z-scores
+
+This will help us determine univariate outliers.
+
+Analyze -\> Descriptive statistics -\> Descriptives -\> Select Variables -\> Select "Save standardized values as variables" -\> Options (select Kurtosis and Skewness) -\> OK
+
+Z scores automatically added to dataset
+
+## Assessing standardized means
+
+Analyze -\> Descriptive Statistics -\> Frequencies -\> Move newly created Zvariables to Variables -\> Statistics (mean, standard deviation, skewness, kurtosis) -\> Charts (Histogram & Show normal curve on histogram) -\> OK
+
+Does the distribution follow the normal curve?
+
+## Identifying the Outliers
+
+Look at the minimum and maximum scores for each standardized variable. Values greater than 3.29 indicates +3 standard deviations and indicate outliers.
+
+If present, options include:
+
+-   Deleting the whole case
+-   Identifying the response as missing to preserve other cases
+
+## Identiying Outliers as Missing {.smaller}
+
+First, sort the z scores so higher or lower scores appear first.
+
+Variable View \> Find Respective Variable \> Missing \> Select ellipses within box \> Range plus one optional discrete missing value \> Enter observed score for first corresponding z score above +/- 3.29 \> OK
+
+When this is done, assess the data again with the explore function.
+
+## Careful!
+
+My rule of thumb is that you can do this once. If still contains skewness, platykurtic/ leptokurtic distribution, or is not normal, have to move on.
+
+Cannot massage the data to fit your needs.
+
+## What else for outliers and assumptions?
+
+At this point, you can:
+
+-   Check for *multivariate normality* if questions are concerned with combinations of IVs or DVs
+-   Check for *linearity* is questions are concerned with associations between variables. \## Reliability
+
+For composite measures, alpha and omega are the standard statistics
+
+If items need to be changed for reliability purposes, run descriptives on your composites again
+
+## Means and Standard Deviations
+
+Very important to include as a description of your data.
+
+I like to include in the composite variable LABEL.
+
+**Question: What do they mean?**
+
+# Summary
+
+-   Key terms
+-   Cleaning and understanding data
+-   SPSS!
+
+## Frey Facts
+
+There is a YouTube video for *everything*
+
+If you learn to do this in R, you have a line of code for every step. All you have to do is hit "run".
+
+## What's Next
+
+The Midterm!
+
+# Creating Surveys in Qualtrics
+
+Qualtrics is the default platform for UK, but many other online survey platforms exist.
+
+## Getting Started
+
+-   Log in with linkblue
+-   Create Project \> From Scratch \> Survey \> Get Started
+-   4 options:
+    -   Starting with blank survey
+    -   Insert QSF (contains data from existing Qualtrics survey)
+    -   Copy survey from existing project
+    -   Use survey from your library
+
+## The Interface
+
+-   Blocks
+-   Question Types
+-   Survey Flow
+
+## Key Points
+
+![](images/Qual1.png){fig-align="center"}
+
+## Our Guide {.smaller}
+
+Typical Workflow:
+
+-   Save a space for consent (add once approved by IRB)
+-   After consent, include questions with participation criteria (e.g., age)
+    -   \*If necessary, include directions for manipulation
+    -   \*If necessary, include manipulation / realism checks
+-   Provide questions for continuous IV / DVs
+-   Collect demographic information
+-   Code variable values
+-   Adjust survey flow
+-   Edit look and feel
+-   Preview survey
+-   Publish and Distribute
+
+## Consent
+
+![](images/Qual2.png){fig-align="center"}
+
+## Eligibility
+
+![](images/Qual3.png){fig-align="center"}
+
+## Text
+
+![](images/Qual4.png){fig-align="center"}
+
+## Manipulation Checks
+
+![](images/Qual5.png){fig-align="center"}
+
+## Some Qualtrics Best Practices {.smaller}
+
+-   Use colors and italics to highlight or provide key information (e.g., time to complete)
+-   Check ExpertReview for tips
+-   Avoid forcing responses unless necessary
+-   Edit multiple statements at once!
+-   Be careful with preset values
+-   Preview often
+-   Test if on yourself
+-   Be mindful or time
+-   Find the recode values button
+
+## Textbook Rules for Coding Variables {.smaller)}
+
+-   Each level of a variable must be mutually exclusive
+-   Each variable should be coded to obtain maximum information
+-   For each participant, there must be a code or value for each variable
+-   Apply coding rules consistently
+-   High numbers should be used to Agree, Good, or Positive
+-   All Data Should be Numeric
+-   Each variable for each case or participant must occupy the same column in the spreadsheet or data editor
+-   Check for problems!
