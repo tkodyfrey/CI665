@@ -346,7 +346,7 @@ Typical Workflow:
 -   Be mindful or time
 -   Find the recode values button
 
-## Textbook Rules for Coding Variables {.smaller)}
+## Textbook Rules for Coding Variables {.smaller}
 
 -   Each level of a variable must be mutually exclusive
 -   Each variable should be coded to obtain maximum information
