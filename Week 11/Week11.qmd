@@ -1,0 +1,571 @@
+---
+title: "Week 11: Data Analysis and Interpretation Part I"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [simple]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: top
+editor: visual
+self-contained: true
+---
+
+# Housekeeping
+
+## Project Timeline
+
+Only 6 weeks left! 1 group has been approved by IRB
+
+-   Goal is to launch survey within the next 2 weeks
+-   Final Qualtrics survey needs to be completed by 3/27. We will prepare them to launch during the workshop.
+-   Data collection will last *two weeks*
+-   Group should be working on *front end* (literature review, hypotheses, methods)
+
+## What Do You Know Now? {.smaller}
+
+-   Research Design
+    -   Internal Validity
+    -   External Validity
+    -   Measurement Validity
+
+You can learn *a lot* about a quantitative study using just these!
+
+## What Do We Still Need To Learn?
+
+-   Analyzing **Group differences**
+-   Analyzing Relationships
+
+## What's Next?
+
+![](images/Week12.png){fig-align="center"}
+
+## Overview of Today
+
+-   Research Design and Classification
+-   *t* tests
+-   Analyses of variance (ANOVA)
+-   Complex tests of group differences
+-   Discussion: Group Differences in Practice
+-   Workshop: Midterm Review / Workday
+
+# GLM Ch. 18
+
+*General Design Classifications for Selection of Difference Statistical Methods*
+
+## Key Terms  {.smaller}
+
+::: panel-tabset
+
+### Between Group Designs
+
+-   Each participant in the research is in *one and only one condition* or group
+-   Participants receive only one level of the IV
+-   DV only needs to be measured once
+-   If power analysis says 20 in each group, then you need 60 total
+
+### Within Subjects Designs
+
+-   Each participant receives or experiences *ALL levels of the IV*
+-   If power analysis says 20 in each group, then you need 20 total
+-   Appeal is in need for fewer participants acting as own controls
+-   Impacted by *carryover effects*
+
+### Mixed Designs
+
+-   Has at least one between-groups IV and one within-subjects IV
+-   Has a minimum of two IVs
+:::
+
+## Understanding Design Types
+
+It's all about the *levels* of the IV
+
+Designs are usually described in terms of:
+
+-   the general type of design (between groups, within subjects, or mixed)
+-   the number of independent variables
+-   the number of levels within each independent variable.
+
+## What does this mean?
+
+The researcher will typically state the design:
+
+EX: A single factor design with 3 levels
+
+EX: A 2 x 2 design with repeated measures
+
+EX: A 3 x 3 x 2 factorial design
+
+## Single Factor Designs
+
+Note: *Factor* is another name for IV
+
+Single factor designs only have one IV
+
+EX: The effect of time of class (morning, afternoon, night) on student engagement.
+
+EX: Students' perceptions of instructor effectiveness over time.
+
+## Class Example
+
+Ikeola and Marian are examining campaigns using visual images can influence HPV vaccine behavioral intentions and eventual uptake of the HPV vaccine.
+
+-   IV: Visual message (4 levels: threat, efficacy, threat x efficacy, control) 
+-   DV: Behavioral intentions
+
+## Between-Groups Factorial Designs
+
+Includes more than one IV
+
+EX: The effect of time of class (morning, afternoon, night) and student sex (male, female) on student engagement.
+
+This is called a 3 x 2 factorial design.
+
+-   The **numbers** represent the number of levels (3 levels of time of class and 2 levels of sex).
+
+-   The **number of numbers** represents the number of IVs (time of class and sex)
+
+## Think Fast!
+
+If you have a 4 x 2 x 3 factorial design...
+
+How many IVs do you have?
+
+What are the levels of each IV?
+
+How many groups would you need for the study?
+
+## Class Example
+
+Elizabeth, Madelyn, and Ansley are examining how message sender status on Instagram influences behavioral intention / adoption.
+
+-   IV: Status (3 levels: influencer, layperson, control) 
+-   DV: Behavioral intention
+
+This is currently a *single-subject* design. How would you make it a between-subjects design?
+
+## Within-Subjects Factorial Designs
+
+Two or more IVs
+
+Participants experience all conditions
+
+EX: The effect of teaching style (traditional or inquiry based) on student engagement over time (pretest and posttest)
+
+## Example
+
+To assess the CIS courses in the School of Information Science, we collect data from all course sections in August, December, January, and April to see if participation in course influences public speaking self-efficacy.
+
+EX: The effect of class time on public speaking self-efficacy over time.
+
+## Mixed Designs
+
+"Such a design might have two between-groups independent variables with three and four levels, respectively, and have one within-subjects independent variable with two levels.
+
+It would be described as a 3 × 4 × 2 factorial design with repeated measures on the third factor."
+
+Basically, if it has a BG component and a WS component, it is a mixed design!
+
+## Summing it Up
+
+![](images/18.png){fig-align="center"}
+
+If you recognize the design, you can generally determine the type of test needed.
+
+# GLM Ch. 19
+
+*The design classification ultimately drives the appropriate statistics.*
+
+## Assumptions
+
+::: panel-tabset
+
+### Ask Yourself
+
+-   Is it difference, associational, or descriptive?
+-   What are the IVs and DVs?
+-   How many IVs do you have?
+-   What are the levels of the IV?
+-   Is it a between, within, or mixed classification?
+-   What is the level of measurement for each variable?
+
+### Statistical Assumptions
+
+Three major statistical assumptions:
+
+-   DV comes from population that is *normally* distributed
+-   Variance of groups must be equal (homogeniety of variance)
+-   Independence of observations
+
+### Remember!
+
+![](images/19.1.png){fig-align="center" width="400"}
+:::
+
+## Choosing Your Test: Basic Differences
+
+![](images/19.3.png){fig-align="center"}
+
+## Choosing Your Test: Complex Differences
+
+![](images/19.5.png){fig-align="center"}
+
+# GLM Ch. 20
+
+*Data Analysis and Interpretation: Basic Difference Questions*
+
+## Disclaimer
+
+We are going to go through A LOT of tests.
+
+I'm not going to show you *how* to run each one (i.e., what buttons to press)
+
+IMO - it is more important to know which test is *appropriate* and how to *interpret* it. Once you figure out which test to run, there is a tutorial out there somewhere.
+
+## Chi-Square Test for Goodness of Fit {.smaller}
+
+::: panel-tabset
+### Overview
+
+![](images/Chi1.png){fig-align="center"}
+
+### Focus
+
+How does the proportion of smokers in our sample (observed) differ from the proportion of smokers (expected) in the population?
+
+You need to know what to expect in the population (e.g., 20% are smokers; 80% are not)!
+
+### Steps
+
+![](images/Chi2.png){fig-align="center" width="600"}
+
+### Example
+
+![](images/Chi3.png){fig-align="center" width="900"}
+
+### Write Up
+
+![](images/Chi4.png){fig-align="center"}
+:::
+
+## Chi-Square Test for Independence {.smaller}
+
+::: panel-tabset
+### Overview
+
+![](images/Chi5.png){fig-align="center"}
+
+### Focus
+
+A Chi-Square Test of Independence is used to determine whether or not there is a significant association between two categorical variables.
+
+How does the proportion of smokers who are female and male in our sample differ from the proportion of smokers in the population who are female and male?
+
+### Steps
+
+![](images/Chi6.png){fig-align="center" width="400"}
+
+![](images/Chi7.png){fig-align="center" width="400"}
+
+### Example
+
+![](images/Chi8.png){fig-align="center"}
+
+### Write Up
+
+![](images/Chi9.png){fig-align="center"}
+:::
+
+## Example Data
+
+::: panel-tabset
+### Survey Data
+
+![](images/survey.png){fig-align="center" width="375"}
+
+### Experiment Data
+
+![](images/exp.png){fig-align="center" width="600"}
+:::
+
+## t Test for Independent Samples {.smaller}
+
+::: panel-tabset
+
+### Overview
+
+A statistical test conducted when there is an *independent variable with two levels* and a *scale/continuous dependent variable*.
+
+Ex: Men will report higher levels of self esteem than women.
+
+### Steps
+
+-   Check information about groups
+-   Check assumptions
+-   Assess differences between groups
+-   Calculate effect size
+
+### Output
+
+![](images/t1.png){fig-align="center"}
+
+### Example
+
+![](images/t2.png){fig-align="center" width="800"}
+
+### Write Up
+
+![](images/t3.png){fig-align="center"}
+
+:::
+
+## Dependent (Paired Samples) t Test {.smaller}
+
+::: panel-tabset
+### Overview
+
+A statistical test conducted when there is a *within-subjects, independent variable with two levels* and a *scale/continuous dependent variable*.
+
+H: Fear of Statistics will be lower at time two than at time one.
+
+### Steps
+
+-   Check information about cases
+-   Check assumptions
+-   Assess differences over time
+-   Calculate effect size
+
+### Example
+
+![](images/pst2.png){fig-align="center"}
+
+### Write Up
+
+![](images/pst3.png){fig-align="center"}
+:::
+
+## Single-Factor (Oneway) ANOVA {.smaller}
+
+::: panel-tabset
+### Overview
+
+1 IV, between groups, **2 or more levels** 
+
+Normally-distributed DV
+
+### Focus
+
+EX: Does total optimism differ by age groups?
+
+*You COULD do this by running a whole bunch of t tests, but you inflate changes for Type I error.
+
+### Steps
+
+![](images/owa1.png){fig-align="center" width="400"}
+
+### Example
+
+![](images/owa2.png){fig-align="center" width="500"}
+
+### Write Up
+
+![](images/owa3.png){fig-align="center" width="350"}
+:::
+
+## Oneway Repeated Measures ANOVA {.smaller}
+
+::: panel-tabset
+### Overview
+
+1 IV, within-subjects, 2 or more levels 
+
+Normally distributed DV
+
+### Focus
+
+EX: Does confidence in coping **change over time**?
+
+### Steps
+
+![](images/rma1.png){fig-align="center"}
+
+### Example
+
+![](images/rma2.png){fig-align="center"}
+
+### Write Up
+
+![](images/owa3.png){fig-align="center" width="350"}
+:::
+
+## Complex Questions: Incorporating More than One IV
+
+![](images/factorial.png){fig-align="center"}
+
+## Factorial ANOVA
+
+::: panel-tabset
+### Overview
+
+Performed in designs with more than one independent variable, two or more levels, and between groups design.
+
+Normally distributed DV
+
+### Focus
+
+EX: Do *gender* and *age* interact to influence reports of optimism?
+
+### Steps
+
+![](images/twa1.png){fig-align="center"}
+
+### Example
+
+![](images/twa2.png){fig-align="center"}
+
+### Write Up
+
+![](images/twa3.png){fig-align="center" width="600"}
+:::
+
+## Mixed between-within subjects ANOVA {.smaller}
+
+::: panel-tabset
+### Overview
+
+Features one between-groups IV and one within-subjects IV
+
+Normally distributed DV.
+
+### Focus
+
+EX: Is there an interaction between *condition* and *time* on perceptions of fear of statistics?
+
+### Step 1
+
+![](images/mix1.png){fig-align="center"}
+
+### Step 2
+
+![](images/mix2.png){fig-align="center"}
+
+### Example
+
+![](images/mix3.png){fig-align="center"}
+
+### Write Up
+
+![](images/mix4.png){fig-align="center" width="600"}
+:::
+
+## Multivariate ANOVA (MANOVA) {.smaller}
+
+::: panel-tabset
+### Overview
+
+One between-groups IV with 2 or more levels Two or more normally-distributed DVs
+
+*Becomes repeated-measures MANOVA if you have within-subjects IV
+
+### Focus
+
+EX: Do men and women differ in their reports of psychological wellbeing (3 variables: positive affect, negative affect, perceived stress)?
+
+### Example
+
+![](images/man1.png){fig-align="center" width="600"}
+
+### Write Up
+
+![](images/man2.png){fig-align="center"}
+
+### Other Example
+
+Your reading by Schrodt and Witt for today!
+:::
+
+## One-Way Analysis of Covariance {.smaller}
+
+::: panel-tabset
+### Overview
+
+One between-groups IV with 2 or more levels 
+
+One normally-distributed DVs 
+
+One ore more theoretically-justified control variables
+
+*Becomes repeated-measures ANCOVA if you have within-subjects IV
+
+### Focus
+
+EX: Are there differences on fear of statistics for those who receive a math skills course versus those who receive a confidence building course while controlling for initial fear of statistics?
+
+The effect of the intervention at T2 while controlling for values of the DV at T1.
+
+### Example
+
+![](images/anc1.png){fig-align="center" width="600"}
+
+### Write Up
+
+![](images/anc2.png){fig-align="center"}
+:::
+
+## Two-Way Analysis of Covariance {.smaller}
+
+::: panel-tabset
+### Overview
+
+Two or more between-groups IV with 2 or more levels 
+
+One normally-distributed DVs 
+
+One or more theoretically-justified control variables
+
+*Becomes 2 factor repeated-measures ANCOVA if you have within-subjects IV (or mixed design!)
+
+### Focus
+
+EX: Do sex and type of course interact to influence fear of statistics while controlling for initial fear of statistics?
+
+The effect of the intervention at T2 while controlling for values of the DV at T1.
+
+### Example
+
+![](images/twac1.png){fig-align="center"}
+
+### Write Up
+
+![](images/twac2.png){fig-align="center" width="600"}
+:::
+
+## Help Links For Each Test: Basic Difference
+
+-   Chi Square Goodness of Fit test in [SPSS](https://www.statology.org/chi-square-goodness-of-fit-test-spss/) / [R](https://www.statology.org/chi-square-goodness-of-fit-test-in-r/)
+-   Chi Square Test of Independence in [SPSS](https://www.statology.org/chi-square-test-of-independence-spss/) / [R](https://www.statology.org/chi-square-test-of-independence-in-r/)
+-   Independent samples *t* test in [SPSS](https://libguides.library.kent.edu/SPSS/IndependentTTest) / [R](https://stat-methods.com/home/independent-samples-t-test-r-2/)
+-   Paired samples *t* test in [SPSS](https://libguides.library.kent.edu/SPSS/PairedSamplestTest) / [R](https://stat-methods.com/home/paired-samples-t-test-r/)
+-   Oneway ANOVA in [SPSS](https://www.statology.org/one-way-anova-spss/) / [R](https://www.statology.org/one-way-anova-r/)
+
+## Help Links For Each Test: Complex Difference
+
+-   Factorial ANOVA in [SPSS](https://www.youtube.com/watch?v=5yDoxhcqkcc) / [R](https://www.statology.org/two-way-anova-r/)
+-   Mixed between-within subjects ANOVA in [SPSS](https://statistics.laerd.com/spss-tutorials/mixed-anova-using-spss-statistics.php) / [R](https://quantscience.rbind.io/2021/03/29/mixed-factorial-anova-in-r/)
+-   MANOVA in [SPSS](https://www.statology.org/manova-spss/) / [R](https://www.youtube.com/watch?v=FA85ONaVijY)
+-   Factorial MANOVA in [SPSS](https://sites.education.miami.edu/statsu/2020/10/26/steps-of-conducting-manova-in-spss/) / [R](https://www.youtube.com/watch?v=YsLgE_phUxM)
+
+## Summary and Review
+
+MOST designs are going to be simple; Complex does not mean BETTER
+
+You now have a Fisher-Price stats toolkit :)
+
+Rely on mentors, examples to guide you through more complex stats
