@@ -4,7 +4,7 @@ author: "Dr. T. Kody Frey"
 institute: "Assistant Professor | School of Information Science" 
 format: 
   revealjs:
-    theme: [night]
+    theme: [default]
     slide-number: true
     preview-links: auto
     logo: Images/UK.png
