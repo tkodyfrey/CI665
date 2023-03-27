@@ -1,0 +1,505 @@
+---
+title: "Week 12: Data Analysis and Interpretation Part II"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [night]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: top
+editor: visual
+self-contained: true
+---
+
+# Housekeeping
+
+## Project Timeline
+
+Only 5 weeks left! 4 groups have been approved by IRB
+
+Goal is to launch survey as soon as possible (workshop tonight will demonstrate steps)
+
+We will work with as many people as we can get!
+
+Group should be working on *front end* (literature review, hypotheses, methods)
+
+## What's Next?
+
+![](images/Week.png){fig-align="center"}
+
+## Overview of Today
+
+Variable Relationships!
+
+-   Brief Review
+-   Correlation
+-   Partial Correlation
+-   Multiple Regression
+
+## Brief Review on BG and WS Difference Tests
+
+Already Covered:
+
+-   Descriptive Statistics
+-   Inferential Statistics
+-   Nonparametric tests (Chi-Square)
+-   Group Differences (t-tests)
+-   ANOVA, Factorial ANOVA, ANCOVA, MANOVA, Repeated Measures MANOVA
+
+## Visualizing
+
+![](images/Viz1.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz2.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz3.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz4.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz5.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz6.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Viz7.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Quick Knowldge Check
+
+What is the difference between a One-way ANOVA and a Factorial ANOVA?
+
+## Real Life
+
+![](images/sanction1.png){fig-align="center" width="700"}
+
+![](images/sanction2.png){fig-align="center" width="700"}
+
+------------------------------------------------------------------------
+
+## Real Life
+
+::: panel-tabset
+### Comparing Means
+
+![2 x 2 Factorial Design](images/sanction3.png){fig-align="center" width="800"}
+
+### Threat to Freedom
+
+The analysis revealed significant main effects of controlling language, F(1, 301) = 16.16, p \< .001, η2 = .05, and fairness, F(1,301) = 41.66, p \< .001, η2 = .12, as well as **a significant interaction**, F(1, 301) = 7.41, p \< .01,η2 = .02.
+
+### Reactance
+
+The analysis revealed significant main effects of controlling language, F(1, 301) = 8.60, p \< .01, η2 = .03, and fairness, F(1, 301) = 104.26,p \< .001, η2 = .26, as well as **a significant interaction**, F(1, 301) = 11.91, p \< .001, η2 = .04.
+
+### Compliance
+
+The analysis revealed a significant main effect of controlling language, F(1, 301) = 8.03, p \< .01, η2 = .03, and a marginally significant interaction, F(1, 301) = 3.22, p = .07, η2 = .01; the fairness main effect was not significant, F(1, 301) = 1.01, p = .32, η2 = .00.
+:::
+
+## What Test is Appropriate! {.smaller}
+
+::: incremental
+-   1 between groups IV (2 levels), 1 normally-distributed DV
+    -   EX: Do men and women differ in stats achievement?
+-   2 categorical variables
+    -   EX: Is gender associated with political party preference?
+-   A 2 x 3 between subjects design, 1 normally-distributed DV
+    -   EX: Do gender and class time (morning, noon, night) interact to affect achievement?
+-   1 between groups IV (4 levels), 1 normally-distributed DV
+    -   EX: Do NCAA basketball tournament regions differ in terms of field goal percentage?
+:::
+
+::: notes
+-   independent samples t
+-   chi square test for independence
+-   two-way ANOVA, look for interaction effects then main
+-   one-way ANOVA
+:::
+
+## What Test is Appropriate! {.smaller}
+
+::: incremental
+-   1 within subjects IV (2 levels), 1 normally-distributed DV
+    -   EX: Do students have more research methods knowledge at the end of 665 compared to the beginning?
+-   1 within subjects IV (4 levels), 1 normally-distributed DV
+    -   EX: How does research method knowledge change from January to April (4 months)?
+-   A 2 x 3 x 2 mixed design with repeated measures on the third variable, 1 normally-distributed DV
+    -   EX: Do gender and class time
+-   1 between groups IV (4 levels), 3 normally-distributed DVs
+:::
+
+::: notes
+-   paired samples t
+-   repeated measures ANOVA
+-   Two-way ANCOVA; factorial ANOVA
+-   MANOVA; individual ANOVAs
+:::
+
+## Example Study 1 {.smaller}
+
+::: panel-tabset
+### Overview
+
+![](images/screen1.png){fig-align="center" width="800"}
+
+### Option 1
+
+![](images/screen2.png){fig-align="center" width="800"}
+
+### Option 2
+
+![](images/screen3.png){fig-align="center" width="800"}
+
+### Option 3
+
+![](images/screen4.png){fig-align="center" width="800"}
+:::
+
+## After That?
+
+![](images/screen5.png){fig-align="center"}
+
+## Example Study 2
+
+::: panel-tabset
+### Overview
+
+![](images/hc1.png){fig-align="center" width="620"}
+
+### Test?
+
+![](images/hc2.png){fig-align="center" width="800"}
+:::
+
+# GLM Ch. 21 & (Parts of) 22
+
+21: *Analysis and Interpretation of Basic Associational Research Questions*
+
+22: *Analysis and Interpretation of Complex Associational Questions*
+
+## Ch. 21 Overview {.smaller}
+
+Chapter 21 (p. 369-385) covers:
+
+-   Analyzing Continuous Variables with Parametric Statistics
+    -   Pearson Product-Moment Correlation (r)
+    -   Statistical Significance
+    -   Correlation Matrix
+    -   Effect Sizes
+    -   Confidence Intervals
+-   Using Nonparametric Associational Statistics
+    -   Spearman Rank-Order Correlation Coefficient (rho)
+    -   Kendall Tau Coefficient (tau)
+    -   Misleading Correlation Coefficients (p. 374-376)
+    -   Associational Statistics for Nominal Variables
+    -   The Chi-Square Test and Effect Size Indices
+
+## Remember Pearson {background-iframe="https://www.historyofdatascience.com/karl-pearson-creator-of-correlation/"}
+
+## What are correlations?
+
+An index of the strength of the linear relationship between two variables
+
+-   Ranges from -1 to +1
+-   A positive relationship means that as scores on one variable increase, scores on the other variable also increase.
+-   An inverse relationship means that a high score on one variable is associated with a low score for the same person on the other variable and vice versa.
+
+## Correlation Matrix {.smaller}
+
+![](images/cor1.png){fig-align="center"}
+
+Teven, J.J. (2007). Teacher temperament: Correlates with teacher caring, burnout, and organizational outcomes. *Communication Education, 56*, 382-400.
+
+------------------------------------------------------------------------
+
+## Correlation Matrix {.smaller}
+
+![](images/cor2.png){fig-align="center"}
+
+Usher, E. L. (2007). Tracing the origins of confidence: A mixed methods exploration of the sources of self-efficacy beliefs in mathematics (Unpublished doctoral dissertation). Emory University, Atlanta, GA.
+
+------------------------------------------------------------------------
+
+## Correlation Matrix
+
+![](images/cor3.png){fig-align="center"}
+
+## Ch. 22 Overview
+
+-   Use and Interpretation of Multiple Regression
+    -   Correlation and Bivariate Regression
+    -   Conditions and Assumptions
+    -   Computing Multiple Regression (partial correlations)
+    -   **Hierarchical Multiple Regression**
+    -   **Simultaneous Multiple Regression**
+    -   **Stepwise Multiple Regression**
+    -   Logistic Regression
+    -   Discriminant Analysis
+
+## What is Regression?
+
+In linear regression, the regression coefficient represents the amount of change in the dependent variable for one-unit change in the independent variable.
+
+## Defining Types of Regression
+
+![](images/22.png){fig-align="center"}
+
+# Conducting the Tests in SPSS
+
+![](images/survey.png){fig-align="center"}
+
+## Correlation
+
+::: panel-tabset
+### Overview
+
+Also known as Pearson's Product Moment or Pearson's *r*
+
+Assess relationship between *two continuous variables*
+
+### Focus
+
+Variable 1: Total Perceived Stress (tpstress)
+
+Variable 2: Total Perceived Control of Internal States (tpcoiss)
+
+### Steps
+
+-   Check for Outliers
+-   Inspect distribution of data points
+-   Determine direction of relationship
+-   Determine strength of relationship
+
+### Alternative?
+
+The nonparametric\* alternative is Spearman's rho
+
+\*Inferential statistics that are used when the data do not meet the assumption of normality.
+
+### SPSS
+
+![](images/cor4.png){fig-align="center" width="700"}
+:::
+
+## Understanding the Output
+
+![](images/cor5.png){fig-align="center"}
+
+## Effect Sizes for r
+
+-   Small *r* = .10 to .29
+-   Medium *r* = .30 to .49
+-   Large *r* = .50 to 1.00
+
+Cohen (1988, pp. 79-81)
+
+## Writing it Up
+
+![](images/cor6.png){fig-align="center"}
+
+## Partial Correlation
+
+::: panel-tabset
+### Overview
+
+A measure of the relationship between the independent variable and the criterion variable, keeping the other independent variables constant.
+
+TL;DR: It has a control.
+
+### Focus
+
+Variable 1: Total Perceived Stress (tpstress)
+
+Variable 2: Total Perceived Control of Internal States (tpcoiss)
+
+Control: Total Social Desirability (tmarlow)
+
+### Steps
+
+-   Check assumptions (normality, linearity, homoscedasticity)
+-   Inspect distribution of data points
+-   Determine direction of relationship
+-   Determine strength of relationship
+
+### SPSS
+
+![](images/partcor1.png){fig-align="center" width="700"}
+:::
+
+## Understanding the Output
+
+![](images/partcor2.png){fig-align="center" width="750"}
+
+## Effect Sizes
+
+-   Small *r* = .10 to .29
+-   Medium *r* = .30 to .49
+-   Large *r* = .50 to 1.00
+
+Cohen (1988, pp. 79-81)
+
+## Writing it Up
+
+![](images/partcor3.png){fig-align="center"}
+
+## Multiple Regression {.smaller}
+
+::: panel-tabset
+### Overview
+
+Includes several continuous and/or dichotomous IVs and one continuous DV
+
+### Focus
+
+H1: How well do the two measures of control (mastery, PCOISS) predict perceived stress?
+
+H2: Which is the best predictor of perceived stess: control of external events (mastery scale) or control of internal states (PCOISS)?
+
+![](images/MR1.png){fig-align="center"}
+
+### Assumptions
+
+-   DV should be at least interval (normally distributed)
+    -   IVs tend to be as well, but you can have dichotomous IVs. These are called dummy variables
+-   Must check for *Multicollinearity*
+    -   Occurs when there are high intercorrelations among some set of predictors
+    -   Two or more predictors contain much of the same information
+-   IVs are related to DVs in linear fashion
+    -   Straight line
+    -   Not curvilinear
+-   IVs should be correlated with the DVs, but not highly
+
+### SPSS
+
+![](images/MR2.png){fig-align="center"}
+:::
+
+## Checking MR Assumptions
+
+::: panel-tabset
+### Multicollinearity
+
+![](images/MR4.png){fig-align="center" width="800"}
+
+### Normality
+
+![](images/MR5.png){fig-align="center" width="800"}
+
+### Multivariate Outliers
+
+![](images/MR6.png){fig-align="center"}
+
+![](images/MR3.png){fig-align="center"}
+:::
+
+## Interpreting the Outpet {.smaller}
+
+![](images/MR8.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/MR7.png){fig-align="center"}
+
+### Unstandardized Interpretation
+
+For every 1 unit increase in mastery, perceived stress decreases by -.63 points
+
+### Standardized Interpretation
+
+For every 1 standard deviation increase in mastery, perceived stress decreases by -.42 standard deviation.
+
+## Mediation & Moderation
+
+![](images/Med1.png){fig-align="center"}
+
+## Other Forms of Regression
+
+::: panel-tabset
+### Logistic Regression
+
+A categorical outcome variable is something that is predicted to happen or not. Based largely in probability, as the outcome is dichotomous.
+
+### Hierarchical Multiple Regression
+
+Variables are entered in steps, and the CHANGE in R2 is examined at each
+
+The order is decided ahead of time
+
+Are there things that need to be controlled? Enter these first!
+
+### Stepwise Multiple Regression
+
+The computer instead of the researcher decides the order and how many of the predictors are used.
+
+Describes how much more each IV has contributed to the prediction from the predictors already used.
+:::
+
+## Another Knowledge Check!
+
+![](images/check1.png){fig-align="center"}
+
+## Summary and Review
+
+-   Changing up next week to give more hands on analysis
+-   Example write ups and tables in Canvas
+-   There are too many types of regression
+-   Still cannot say 'predict' unless design is experimental
+-   Theory is still driving choices
+
+# Workshop: Connecting Surveys to CI SONA
+
+## Broad Steps
+
+-   Finish surveys
+-   Double check them
+-   Complete [research subjects request form](https://uky.az1.qualtrics.com/jfe/form/SV_9Hy7vlzsnjtBypT)
+-   Get IRB approval and retain approval number
+-   Add survey to SONA
+
+## Embedd ID
+
+For Qualtrics:
+
+-   MUST add embed data to survey flow
+
+![](images/SurveyFlow.png){fig-align="center"}
+
+## Setting up CI SONA
+
+![](images/qual1.png){fig-align="center"}
+
+## Selecting the Type of Study
+
+![](images/qual2.png){fig-align="center"}
+
+## Adding the tag
+
+![](images/qual3.png){fig-align="center"}
+
+## Redirecting {background-iframe="https://www.sona-systems.com/help/qualtrics/"}
+
+After SONA generates your unique URL, you must add this back to Qualtrics so that participants are redirected.
+
+## Scott Johnson
+
+Add Scott Johnson (scott.johnson\@uky.edu) as a collaborator.
+
+He is the resident Qualtrics guru and keeper of the SONA.
