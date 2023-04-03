@@ -1,0 +1,344 @@
+---
+title: "Week 13: MOSTLY PRACTICE and some advanced analyses"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format: 
+  revealjs:
+    theme: [simple]
+    slide-number: true
+    preview-links: auto
+    logo: Images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: top
+editor: visual
+self-contained: true
+---
+
+# Housekeeping
+
+## Project Timeline
+
+-   Only 4 weeks left! 4 groups have been approved by IRB...
+
+-   But EVERYONE is ready to launch for SONA or has launched
+
+-   If you get 100 people, start analyzing (but keep collecting)
+
+-   Group should be working on *front end* (literature review, hypotheses, methods)
+
+## What's Next?
+
+![](images/Week1.png){fig-align="center"}
+
+## Overview of Today
+
+-   Review \[5:00 until 5:20\]
+-   Data Cleaning Practice \[5:20 until 6:00\]
+-   Data Analysis Practice \[6:10 until 7:00\]
+-   Advanced Analyses \[7:10 until 7:45\]
+
+# Application Review
+
+------------------------------------------------------------------------
+
+![](images/Ex1.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex2.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex3.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex4.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex5.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex6.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex7.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex8.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex9.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex10.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex11.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex12.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex13.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+![](images/Ex14.png){fig-align="center"}
+
+# Advanced Analyses
+
+## Structural Equation Modeling
+
+SEM is the root of many, many advanced techniques applying the general linear model.
+
+![](images/SEM1.png){fig-align="center"}
+
+## Model Building
+
+SEM involves building a MODEL or MODELS of how variables connect
+
+![](images/SEM2.png){fig-align="center"}
+
+## The SEM Process
+
+-   Specify a model on the basis of theory
+-   Each variable in a model is conceptualized as a *latent* construct measured by multiple indicators
+-   Three or more indicators per latent variable
+
+------------------------------------------------------------------------
+
+![](images/SEM3.png){fig-align="center"}
+
+## Key SEM Terms
+
+::: panel-tabset
+### Indicators
+
+-   Observed, manifest, reference variables
+-   Must be theoretically sound and reliably measured
+
+### Latent
+
+-   Unobserved variables/constructs/factors
+-   Measured by their respective indicators (include independent, mediating and dependent variables)
+
+### Exogenous
+
+-   Independent variables with no prior causal variable; all are assumed correlated
+
+### Endogenous
+
+Dependent or mediating variables (variables which are both effects of other exogenous or mediating variables and are causes of other mediating and dependent variables.
+:::
+
+------------------------------------------------------------------------
+
+![](images/SEM4.png){fig-align="center"}
+
+## SEM Steps
+
+SEM typically proceeds in two steps:
+
+-   Validation of the *measurement* model
+-   Testing the *structural* model
+
+## The Measurement Model
+
+*Confirmatory* Factor Analysis
+
+-   Not exploring data but confirming the structure.
+-   Purpose is to validate (or confirm) the way the researcher has measured the latent variables (factors) in the model
+-   Establishes convergent and divergent validity of the model
+-   Consists of the latent variables and their indicator variables;
+
+## The Structural Model
+
+Measurement Model + Latent Variables **+ Paths and Covariances connecting them**
+
+Purpose is to establish that the structural model has a GOOD FIT to the DATA
+
+That one model FITS the data BETTER than another model
+
+## Determining FIT
+
+Kline (2016) and Hu and Bentler (1999) are most common.
+
+-   chi-square goodness-of-fit
+-   root mean square error of approximation (RMSEA) \< .08
+-   standardized root mean square residual (SRMR) \< .08
+-   Tucker-Lewis index (TLI) \> .90,
+-   Comparative fit index (CFI) \> .90.
+
+## Who To Read
+
+Notable Scholars: Michael Stephenson, Lance Holbert, Rex Kline, Alan Goodboy
+
+![](images/MTS.jpeg){.absolute top="350" left="0" width="175"}
+
+![](images/LH.jpeg){.absolute top="350" left="250" width="175"}
+
+![](images/RK.jpeg){.absolute top="350" left="500" width="175"}
+
+![](images/AG.jpeg){.absolute top="350" left="750" width="175"}
+
+## Meta-Analysis
+
+![Noar, 2006](images/Meta1.png){fig-align="center"}
+
+## In a Nutshell
+
+For a meta-analysis, you are taking the effect sizes from all studies on a subject and combining them to understand effects ACROSS studies.
+
+Not concerned with statistical significance (well, not really).
+
+## Who To Read
+
+Notable scholars: Mike Allen, Seth Noar
+
+![](images/MA.png){.absolute top="350" left="300" width="175"}
+
+![](images/SN.jpeg){.absolute top="350" left="600" width="175"}
+
+## Hierachical Linear Modeling
+
+One of the assumptions of statistical inference is that observations are independent of one another.
+
+If not, then all responses share a bit of error that biases results.
+
+## An Example
+
+Consider a classroom. If I asked students to fill out a survey about their instructor, can I assume responses are totally independent?
+
+No! They are reporting on the same instructor.
+
+## HLM
+
+HLM runs a bunch of regressions at the same time, at multiple levels.
+
+It *nests* individuals within larger groups (levels) to statistically control for a lack of independent observations.
+
+------------------------------------------------------------------------
+
+![](images/HLM1.png){fig-align="center"}
+
+## What Can It Do?
+
+-   It can examine change or growth (observations nested within individuals)
+-   It can examine how outcomes vary across groups OR how group-level characteristics affect outcomes.
+
+## Example RQs
+
+-   To what extent do schools vary in their schooling outcomes?
+-   What school policies and practices improve the levels of schooling outcomes?
+-   Are there significant differences between schools in their average rates of growth?
+-   How do school-level variables affect the average rate of growth (e.g., the effects of school policies and practices)?
+
+## Applied to Comm
+
+-   Students nested within instructors, classrooms, university
+-   Individuals with multiple observations over time
+-   Individuals within couples or dyads
+-   Other nested structures?
+
+## Who To Ready
+
+Notable scholars: Kody Frey (Maybe not notable, but I can do it!), Hee Sun Park, Andrew Hayes (Read him for ANY method, really), Betsy McCoach
+
+![](images/KF.jpg){.absolute top="350" left="0" width="175"}
+
+![](images/HSP.png){.absolute top="350" left="250" width="175"}
+
+![](images/AH.jpeg){.absolute top="350" left="500" width="175"}
+
+![](images/BM.jpeg){.absolute top="350" left="750" width="175"}
+
+## Bayesian Statistics
+
+Involves using your prior beliefs, also called as priors, to make assumptions on everyday problems and continuously updating these beliefs with the data that you gather through experience.
+
+## An Example Pt. 1
+
+Let's assume you live in a big city and are shopping, and you momentarily see a very famous person. Let's call him X.
+
+Now you come back home wondering if the person you saw was really X.
+
+## An Example Pt. 2
+
+Let's say you want to assign a probability to this.
+
+Since you live in a big city, you would think that coming across this person would have a very low probability and you assign it as 0.004.
+
+Bayesian Statistics partly involves using your prior beliefs, also called as priors, to make assumptions on everyday problems.
+
+Mathematically, we can write this as: P (seeing person X \| personal experience) = 0.004
+
+## An Example Pt. 3
+
+The next day, since you are following this person X on social media, you come across his post with him posing right in front of the same store. You are now almost convinced that you saw the same person.
+
+You assign a probability of seeing this person as 0.85.
+
+Mathematically, we can write this as: P (seeing person X \| personal experience, social media post) = 0.85
+
+## An Example Pt. 4
+
+You want to be convinced that you saw this person. So, you start looking for other outlets of the same shop.
+
+You find 3 other outlets in the city. Now, you are less convinced that you saw this person. You update the probability as 0.36.
+
+Mathematically, we can write this as: P (seeing person X \| personal experience, social media post, outlet search) = 0.36
+
+## An Example Pt. 5
+
+Let's say you want to predict the bias present in a 6 faced die that is not fair.
+
+One way to do this would be to toss the die *n* times and find the probability of each face. This is commonly called as the frequentist approach. Another way is to look at the surface of the die to understand how the probability could be distributed. Say, you find a curved surface on one edge and a flat surface on the other edge, then you could give more probability to the faces near the flat edges as the die is more likely to stop rolling at those edges. This is the Bayesian approach.
+
+## Shoutout this guy
+
+https://medium.com/@shankyp1000/bayesian-statistics-explained-in-simple-terms-with-examples-5200a32d62f8
+
+## Who To Read
+
+I have no idea. I'm sure the Bayesian Comm Scholars exist somewhere...
+
+Maybe Andy Pilny??
+
+![](images/AP.jpeg){fig-align="center"}
+
+## Growth Curve Modeling
+
+Growth curve modeling is a technique to describe and explain an individual's change over time.
+
+Hence the focus on GROWTH
+
+Curran et al., 2010
+
+------------------------------------------------------------------------
+
+![](images/GCM.png){fig-align="center"}
+
+## In Sum
+
+Everything stems from group differences and associations!
+
+Complex does not equal accurate.
+
+It's hard to keep up when statistical methods change and develop so frequently.
+
+From Goodboy and Kline (2017):
+
+**"Box (1976) put it like this: Overelaboration and overparameterization---that is, unnecessary complexity---is often the hallmark of scientific mediocrity."**
