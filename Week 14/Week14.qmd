@@ -14,7 +14,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: bottom
 editor: visual
-self-contained: false
+self-contained: true
 ---
 
 # Housekeeping
@@ -567,5 +567,3 @@ Good researchers **support** and **justify** they decisions they made along the 
 # Wrap Up and What's Next??
 
 After having your studies posted on the CI SONA webpage for at least a week, you should now have some data to begin exploration. This class period will be very applied -- demonstrating how to download your data from Qualtrics, organize the database, clean the data, identify outliers, gather descriptive, and prepare everything for analysis.
-
-I'm turning you loose!
