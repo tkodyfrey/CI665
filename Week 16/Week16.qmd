@@ -1,0 +1,651 @@
+---
+title: "Week 16: Dissemination and Presentation"
+author: "Dr. T. Kody Frey"
+institute: "Assistant Professor | School of Information Science" 
+format:
+  revealjs:
+    theme: [default]
+    slide-number: true
+    preview-links: auto
+    logo: images/UK.png
+    footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
+    scrollable: true
+    transition: fade
+    navigation-mode: vertical
+    fig-cap-location: bottom
+    editor: visual
+self-contained: false
+editor_options: 
+  chunk_output_type: inline
+---
+
+# Housekeeping
+
+## Overview
+
+-   Housekeeping
+-   Dissemination and Presentation
+-   Discussion
+-   Polishing
+
+## Project Timeline {.smaller}
+
+-   Regarding *analysis*, you are responsible for:
+    -   Missing data, Means, SDs, Reliabilities (alphas or omegas), analysis
+-   Final Report must include:
+    -   APA format; Introduction, Rationalize, Lit Review, RQs/Hs, Methods, Results, Discussion (Implications, Limitations, Future Research), Conclusion, References, Relevant Appendices
+-   Final Conference-Style Presentation must include:
+    -   Visual aid
+    -   15 minute max; Each member should speak
+    -   Brief Q&A at the end
+-   **May 1 / 5:00 pm / My house**
+    -   Address sent via email
+    -   City BBQ; Let me know about allergies!
+    
+## What's Next?
+
+![](images/Week16.png){fig-align="center"}
+
+## Help Sessions This Week
+
+Available by appointment.
+
+No scheduled times, but I can meet with you if you schedule it. 
+
+# Quick Review 
+
+## What is an EFA?
+
+In exploratory factor analysis, one postulates that there is a smaller set of unobserved (latent) variables or constructs that underlie the variables that actually were observed or measured.
+
+What hangs together?
+
+Do all the items *actually* measure the construct you are interested in?
+
+## Factors {.smaller}
+
+::: panel-tabset
+### Winchester House
+
+*Negative Affect*
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: false
+#| code-fold: false
+
+library(foreign)
+library(psych)
+library(corrplot)
+library(ggplot2)
+library(GPArotation)
+library(semTools)
+library(semPlot)
+
+DATA <- read.spss("/Users/kodyfrey/Downloads/Intersectionality & ST Data.sav", use.value.label=FALSE, to.data.frame=TRUE)
+
+describe(DATA)
+
+NegAff=na.omit(subset(DATA, select= c(negaff_1, negaff_2, negaff_3, negaff_4, negaff_5, negaff_6, negaff_7, negaff_8, negaff_9, negaff_10, negaff_11, negaff_12, negaff_13, negaff_14, negaff_15, negaff_16, negaff_17, negaff_18, negaff_19, negaff_20)))
+
+NA_2 = fa(NegAff[ -c(13, 12, 9, 11, 6, 10)], nfactors=2, rotate = "oblimin", fm="mle")
+print(NA_2, digits = 4)
+
+NA_2.model <- '
+F1 =~ negaff_14 + negaff_15 + negaff_16 + negaff_17 + negaff_18 + negaff_19 + negaff_20
+F2 =~ negaff_1 + negaff_2 + negaff_3 + negaff_4 + negaff_5 + negaff_7 + negaff_8
+'
+
+NA_2.fit <- cfa(NA_2.model, data=DATA, estimator = "MLM")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+#| code-fold: true
+#| fig-width: 12
+#| fig-height: 5
+
+NA_labels <- c("14", "15", "16", "17", "18", "19", "20", "1", "2", "3", "4", "5", "7", "8", "Factor_1", "Factor_2")
+semPaths(NA_2.fit, layout = "tree",
+         nodeLabels=NA_labels, 
+         sizeMan = 3.25,
+         edge.color="black",
+         node.width = 1,
+         edge.label.cex = .75,
+         style = "lisrel",
+         mar = c(3, 3, 3, 3))
+```
+
+### HealthComm
+
+*Perceived Severity*
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: false
+#| code-fold: false
+
+library(foreign)
+library(psych)
+library(corrplot)
+library(ggplot2)
+library(GPArotation)
+library(semTools)
+library(semPlot)
+
+DATA3 <- read.spss("/Users/kodyfrey/Downloads/DATA.sav", use.value.label=FALSE, to.data.frame=TRUE)
+
+describe(DATA3)
+
+PerSev=na.omit(subset(DATA3, select= c(persev1, persev2, persev3, persev4, persev5, persev6, persev7, persev8, persev9, persev10, persev11, persev12, persev13, persev14, persev15, persev16, persev17, persev18, persev19, persev20, persev21, persev22, persev23, persev24, persev25, persev26, persev27, persev28, persev29, persev30)))
+
+PS_5 = fa(PerSev[ -c(10, 11, 17, 19, 20, 9)], nfactors=5, rotate = "oblimin", fm="mle")
+print(PS_5, digits = 4)
+
+PS_5.model <- '
+F1 =~ persev4 + persev5 + persev6 + persev7 + persev8
+F2 =~ persev1 + persev2 + persev3
+F3 =~ persev23 + persev24 + persev25 + persev26 + persev30
+F4 =~ persev16 + persev27 + persev28 + persev29
+F5 =~ persev12 + persev13 + persev14 + persev15 + persev18 + persev21 + persev22
+'
+
+PS_5.fit <- cfa(PS_5.model, data=DATA3, estimator = "MLM")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+#| code-fold: true
+#| fig-width: 12
+#| fig-height: 4
+
+PS_labels <- c("4", "5", "6", "7", "8", "1", "2", "3", "23", "24", "25", "26", "30", "16", "27", "28", "29", "12", "13", "14", "15", "18", "21", "22", "Factor_1", "Factor_2", "Factor_3", "Factor_4", "Factor_5")
+semPaths(PS_5.fit, layout = "tree",
+         nodeLabels=PS_labels, 
+         sizeMan = 3.25,
+         edge.color="black",
+         node.width = 1,
+         edge.label.cex = .75,
+         style = "lisrel",
+         mar = c(3, 3, 7, 3))
+```
+
+### Sunscreen
+
+*Attitudes Toward Sunscreen*
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: false
+#| code-fold: false
+
+library(foreign)
+library(psych)
+library(corrplot)
+library(ggplot2)
+library(GPArotation)
+library(semTools)
+library(semPlot)
+
+DATA2 <- read.spss("/Users/kodyfrey/Downloads/SunscreenData.sav", use.value.label=FALSE, to.data.frame=TRUE)
+
+describe(DATA2)
+
+SuncreenAtt=na.omit(subset(DATA2, select= c(Pre_ATS_1, Pre_ATS_2, Pre_ATS_3, Pre_ATS_4, Pre_ATS_5, Pre_ATS_6, Pre_ATS_7, Pre_ATS_8, Pre_ATS_9, Pre_ATS_10, Pre_ATS_11, Pre_ATS_12, Pre_ATS_13, Pre_ATS_14, Pre_ATS_15, Pre_ATS_16, Pre_ATS_17, Pre_ATS_18, Pre_ATS_19, Pre_ATS_20, Pre_ATS_21, Pre_ATS_22, Pre_ATS_23, Pre_ATS_24, Pre_ATS_25, Pre_ATS_26, Pre_ATS_27, Pre_ATS_28, Pre_ATS_29, Pre_ATS_30)))
+
+SS_4 = fa(SuncreenAtt[ -c(28, 17, 1, 26, 8, 16, 14, 18, 29, 3, 19)], nfactors=3, rotate = "oblimin", fm="mle")
+print(SS_4, digits = 4)
+
+SS_4.model <- '
+F1 =~ Pre_ATS_2 + Pre_ATS_4 + Pre_ATS_5 + Pre_ATS_6 + Pre_ATS_7 + Pre_ATS_12 + Pre_ATS_15 + Pre_ATS_22 + Pre_ATS_25
+F2 =~ Pre_ATS_11 + Pre_ATS_13
+F3 =~ Pre_ATS_20 + Pre_ATS_21 + Pre_ATS_27
+F4 =~ Pre_ATS_9 + Pre_ATS_10 + Pre_ATS_23 + Pre_ATS_24 + Pre_ATS_30
+'
+SS_4.fit <- cfa(SS_4.model, data=DATA2, estimator = "MLM")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+#| code-fold: true
+#| fig-width: 12
+#| fig-height: 4
+
+SS_labels <- c("2", "4", "5", "6", "7", "12", "15", "22", "25", "11", "13", "20", "21", "27", "9", "10", "23", "24", "30", "Factor_1", "Factor_2", "Factor_3", "Factor_4")
+semPaths(SS_4.fit, layout = "tree",
+         nodeLabels=SS_labels, 
+         sizeMan = 3.25,
+         edge.color="black",
+         node.width = 1,
+         edge.label.cex = .75,
+         style = "lisrel",
+         mar = c(3, 3, 7, 3))
+```
+
+### Boys
+
+*Spectator Motivation to Exercise*
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: false
+#| code-fold: false
+
+library(foreign)
+library(psych)
+library(corrplot)
+library(ggplot2)
+library(GPArotation)
+library(semTools)
+library(semPlot)
+
+DATA4 <- read.spss("/Users/kodyfrey/Downloads/Fitness and Perception.sav", use.value.label=FALSE, to.data.frame=TRUE)
+
+describe(DATA4)
+
+Motivation=na.omit(subset(DATA4, select= c(SMS_1, SMS_2, SMS_3, SMS_4, SMS_5, SMS_6, SMS_7, SMS_8, SMS_9, SMS_10, SMS_11, SMS_12, SMS_13, SMS_14, SMS_15, SMS_16, SMS_17, SMS_18, SMS_19, SMS_20, SMS_21, SMS_22, SMS_23, SMS_24, SMS_25)))
+
+SMS_3 = fa(Motivation[ -c(8, 9, 11, 21, 25, 22, 10)], nfactors=3, rotate = "oblimin", fm="mle")
+print(SMS_3, digits = 4)
+
+SMS_3.model <- '
+F1 =~ SMS_1 + SMS_2 + SMS_5 + SMS_12 + SMS_13 + SMS_14 + SMS_15 + SMS_16 + SMS_17 + SMS_18
+F2 =~ SMS_7 + SMS_19 + SMS_20
+F3 =~ SMS_4 + SMS_6 + SMS_23 + SMS_24
+'
+SMS_3.fit <- cfa(SMS_3.model, data=DATA4, estimator = "MLM")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+#| code-fold: true
+#| fig-width: 12
+#| fig-height: 4
+
+SMS_labels <- c("1", "2", "5", "12", "13", "14", "15", "16", "17", "18", "7", "19", "10", "4", "6", "23", "14", "Factor_1", "Factor_2", "Factor_3")
+semPaths(SMS_3.fit, layout = "tree",
+         nodeLabels=SMS_labels, 
+         sizeMan = 3.25,
+         edge.color="black",
+         node.width = 1,
+         edge.label.cex = .75,
+         style = "lisrel",
+         mar = c(3, 3, 7, 3))
+```
+
+### Shake and Bake
+
+*HPV Discussion Facilitation*
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: false
+#| code-fold: false
+
+library(foreign)
+library(psych)
+library(corrplot)
+library(ggplot2)
+library(GPArotation)
+library(semTools)
+library(semPlot)
+
+DATA5 <- read.spss("/Users/kodyfrey/Downloads/MFPHPVV.sav", use.value.label=FALSE, to.data.frame=TRUE)
+
+describe(DATA5)
+
+Discussion=na.omit(subset(DATA5, select= c(Disc_1, Disc_2, Disc_3, Disc_4, Disc_5, Disc_6, Disc_7, Disc_8, Disc_9, Disc_10, Disc_11, Disc_12, Disc_13, Disc_14, Disc_15, Disc_16, Disc_17, Disc_18, Disc_19, Disc_20, Disc_21, Disc_22, Disc_23, Disc_24, Disc_25)))
+
+Diss_3 = fa(Discussion[ -c(8, 9, 22)], nfactors=3, rotate = "oblimin", fm="mle")
+print(Diss_3, digits = 4)
+
+Diss_3.model <- '
+F1 =~ Disc_15 + Disc_16 + Disc_17 + Disc_18 + Disc_19 + Disc_20 + Disc_21 + Disc_23 + Disc_24 + Disc_25
+F2 =~ Disc_1 + Disc_2 + Disc_3 + Disc_4 + Disc_5 + Disc_6 + Disc_7
+F3 =~ Disc_10 + Disc_11 + Disc_12 + Disc_13 + Disc_14
+'
+Diss_3.fit <- cfa(Diss_3.model, data=DATA5, estimator = "MLM")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+#| code-fold: true
+#| fig-width: 12
+#| fig-height: 4
+
+Diss_labels <- c("15", "16", "17", "18", "19", "20", "21", "23", "24", "25", "1", "2", "3", "4", "5", "6", "7", "10", "11", "12", "13", "14", "Factor_1", "Factor_2", "Factor_3")
+semPaths(Diss_3.fit, layout = "tree",
+         nodeLabels=Diss_labels, 
+         sizeMan = 3.25,
+         edge.color="black",
+         node.width = 1,
+         edge.label.cex = .75,
+         style = "lisrel",
+         mar = c(3, 3, 7, 3))
+```
+
+:::
+
+## Example Study 1 {.smaller}
+
+::: panel-tabset
+### Sunscreen
+
+![](images/screen1.png){fig-align="center" width="800"}
+
+### Health Comm
+
+![](images/hc1.png){fig-align="center" width="600"}
+
+### Winchester
+
+![](images/Ex1.png){fig-align="center"}
+
+### Shake and Bake
+
+![](images/Ex12.png){fig-align="center"}
+
+### Boys
+
+![](images/Ex5.png){fig-align="center"}
+
+:::
+
+# Donuts and Details!
+
+*Scientific Communication*
+
+## 2 Goals 
+
+**Defining the Donut**
+
+-   Defining your objective and actively preparing
+
+**Presenting as Performance**
+
+-   Developing your identity as a speaker and handling Q&A
+
+## Situating the Talk
+
+"According to most studies, people's number one fear is public speaking. Number two is death. Death is number two? Does that seem right? To the average person that means that if they have to go to a funeral, they'd be better off in the casket than giving the eulogy."
+
+-   Jerry Seinfeld
+
+## Planning Your Story {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Step 1: Consider the donut**
+
+If the donut is your field, the hole is the gap you're trying to fill.
+
+-   Your research question(s)
+-   Motivate audience to listen
+-   *Focus on what we do not know*
+:::
+
+::: {.column width="50%"}
+![](images/story1.png){.absolute top="205" left="585" width="400"}
+:::
+:::
+
+## Planning Your Story {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Step 2: Analyze your audience**
+
+Consider the following questions:
+
+-   What do they already know?
+-   Are they required to be here?
+-   What do we have in common?
+-   What do they want to know
+:::
+
+::: {.column width="50%"}
+**Step 3: Identify your throughline**
+
+What is the invisible thread that binds your story together?
+
+-   The scientific method
+-   A central question
+-   An area of study
+-   A conference theme?
+:::
+:::
+
+## Planning Your Story {.smaller}
+
+::: columns
+::: {.column width="50%"}
+**Step 4: Analyze Your audience**
+
+Use *analogies* and little jargon
+
+-   After assessing your audience and identifying your throughline, you can choose language that is appropriate.
+-   Avoid specialized language and use terms that are familiar.
+:::
+
+::: {.column width="50%"}
+**Step 5: End with a clear conclusion**
+
+You should always:
+
+-   Identify what we know now that we did not know before.
+-   Articulate where the research goes next.
+-   Make it memorable!
+:::
+:::
+
+## Complex Topics
+
+![](images/complex.png){fig-align="center"}
+
+## You Try
+
+Think of a research project or topic you are interested in.
+
+**How would you explain this to a group of 2 to 4 year olds?**
+
+## Quantum Physics...for babies?
+
+Chris Ferrie - PhD in Applied Mathematics
+
+Topics range across:
+
+-   General relatively
+-   Bayesian statistics
+-   Electromagnetism
+-   Robotics
+-   Neural networks
+
+## Baby University
+
+What specific strategies do the books take to explain their subject matter?
+
+Are they effective? Why or why not?
+
+## The Hourglass
+
+::: columns
+::: {.column width="50%"}
+-   Tell them what you're going to tell them...
+-   Tell them...
+-   Tell them what you told them...
+:::
+
+::: {.column width="50%"}
+![](images/glass.png){.absolute top="70" left="440" width="600"}
+:::
+:::
+
+## What's Missing?? {.smaller}
+
+::: columns
+::: {.column width="50%"}
+BE **SELECTIVE** in your details.
+
+-   Highlight critical information
+-   Avoid overwhelming listeners
+-   Keep literature review to a minimum
+:::
+
+::: {.column width="50%"}
+![](images/sum.png){.absolute top="115" left="550" width="500"}
+:::
+:::
+
+# Presenting as *Performance*
+
+Developing your identity as a speaker
+
+## Roots in identity
+
+View your talk as a performance of your identity.
+
+It takes time, preparation, and practice to *convey the image you want* to the audience.
+
+## Delivery
+
+Remember that *energy does not equal* effectiveness.
+
+-   Match your nonverbals to your tone.
+-   Make eye contact with both sides of the room.
+-   Stand to engage the audience.
+-   Avoid self-handicapping.
+-   Practice with keywords.
+-   Take a chance!
+
+## Delivery
+
+The audience does not want to be bored.
+
+Engage by utilizing *immediacy* and *speaking to them directly*
+
+This grants you more leniency for mistakes.
+
+## Visual Aids
+
+The visual aid complements your presentation.
+
+-   Avoid trying to do too much.
+-   Remain consistent in structure and design.
+-   Try to avoid skipping slides.
+-   Use it to define complex ideas.
+-   Show, don't tell.
+-   Put the most important info in the top left.
+
+## Visual Aids
+
+The slides give the audience context.
+
+If you want them to pay attention to you, only use images.
+
+## The 7 Deadly Sins
+
+![](images/ppt.png){fig-align="center"}
+
+## UK Branding
+
+UKY has a variety of professional, branded materials appropriate for your talks:
+
+<https://www.uky.edu/prmarketing/branding-resources/brand-assets>
+
+## Header
+
+::: columns
+::: {.column width="50%"}
+*Content* to support your talk goes here
+:::
+
+::: {.column width="50%"}
+*Visual* goes here (image, graph, table, chart, etc.)
+:::
+:::
+
+## The Hourglass
+
+::: columns
+::: {.column width="50%"}
+-   Tell them what you're going to tell them...
+-   Tell them...
+-   Tell them what you told them...
+:::
+
+::: {.column width="50%"}
+![](images/glass2.png){.absolute top="70" left="550" width="500"}
+:::
+:::
+
+## Scenes in a story {.smaller}
+
+```{mermaid}
+%%| fig-width: 10
+flowchart LR
+    A((Premise))
+    B((Core Conflict))
+    C((Tension))
+    D((Turning Point))
+    E((Resolution))
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+```
+
+-   **Premise**: What is the donut hole?
+-   **Core Conflict**: Brief backstory to get audience invested
+-   **Tension**: What are the implications?
+-   **Turning Point**: How will we follow to relieve the tension?
+-   **Resolution**: Resolve the conflict through your *vision*
+
+Your throughline connects the pieces
+
+## And then?
+
+![](images/after.png){fig-align="center"}
+
+## Recap
+
+::: panel-tabset
+
+### Donuts!
+
+Remember the hole in the field that you are trying to fill.
+
+Adapt the content to the audience.
+
+### Performance
+
+Think about how your presentation reflects the identity you want.
+
+Turn your talk into a *story*
+:::
+
+# Speaking is hard.
+
+No one expects you to be perfect right away. Embrace the mistakes because they've happened to everyone.
+
+## The Conscious Competence Model
+
+![](images/cc.png){fig-align="center"}
+
+## What's Next??
+
+You have successfully put together a quantitative research study. The next step is to present this work to your peers at an academic conference. The content for the final week in the course centers on effective dissemination and presentation of your empirical results. You should leave the day feeling prepared for your final course presentations, as well as any conference presentations you plan to submit to in the future.
