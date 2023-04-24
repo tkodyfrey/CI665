@@ -14,7 +14,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: bottom
     editor: visual
-self-contained: false
+self-contained: true
 editor_options: 
   chunk_output_type: inline
 ---
@@ -83,7 +83,7 @@ library(GPArotation)
 library(semTools)
 library(semPlot)
 
-DATA <- read.spss("/Users/kodyfrey/Downloads/Intersectionality & ST Data.sav", use.value.label=FALSE, to.data.frame=TRUE)
+DATA <- read.spss("/Users/kodyfrey/Desktop/CI 665/Week 16/SEM/Data1.sav", use.value.label=FALSE, to.data.frame=TRUE)
 
 describe(DATA)
 
@@ -137,7 +137,7 @@ library(GPArotation)
 library(semTools)
 library(semPlot)
 
-DATA3 <- read.spss("/Users/kodyfrey/Downloads/DATA.sav", use.value.label=FALSE, to.data.frame=TRUE)
+DATA3 <- read.spss("/Users/kodyfrey/Desktop/CI 665/Week 16/SEM/Data3.sav", use.value.label=FALSE, to.data.frame=TRUE)
 
 describe(DATA3)
 
@@ -194,7 +194,7 @@ library(GPArotation)
 library(semTools)
 library(semPlot)
 
-DATA2 <- read.spss("/Users/kodyfrey/Downloads/SunscreenData.sav", use.value.label=FALSE, to.data.frame=TRUE)
+DATA2 <- read.spss("/Users/kodyfrey/Desktop/CI 665/Week 16/SEM/Data2.sav", use.value.label=FALSE, to.data.frame=TRUE)
 
 describe(DATA2)
 
@@ -249,7 +249,7 @@ library(GPArotation)
 library(semTools)
 library(semPlot)
 
-DATA4 <- read.spss("/Users/kodyfrey/Downloads/Fitness and Perception.sav", use.value.label=FALSE, to.data.frame=TRUE)
+DATA4 <- read.spss("/Users/kodyfrey/Desktop/CI 665/Week 16/SEM/Data4.sav", use.value.label=FALSE, to.data.frame=TRUE)
 
 describe(DATA4)
 
@@ -303,7 +303,7 @@ library(GPArotation)
 library(semTools)
 library(semPlot)
 
-DATA5 <- read.spss("/Users/kodyfrey/Downloads/MFPHPVV.sav", use.value.label=FALSE, to.data.frame=TRUE)
+DATA5 <- read.spss("/Users/kodyfrey/Desktop/CI 665/Week 16/SEM/Data5.sav", use.value.label=FALSE, to.data.frame=TRUE)
 
 describe(DATA5)
 
