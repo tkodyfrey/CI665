@@ -1,7 +1,7 @@
 ---
 title: "Week 1: Introductions, Course Expectations, and Research Ethics"
 author: "Dr. T. Kody Frey"
-institute: "Assistant Professor | School of Information Science" 
+institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
     theme: [default]
@@ -36,9 +36,9 @@ self-contained: true
     -   Purposes
     -   Dichotomies
     -   Types
--   Research Ethics
+-   Research Ethics / CITI Training
 
-We will end with the required *RCR 1 hour in-person training* component. You will be the first grad students to get this!
+There is time reserved at the end for you to begin / potentially complete your required CITI training to engage in research.
 
 ## Introductions
 
@@ -47,14 +47,13 @@ We will end with the required *RCR 1 hour in-person training* component. You wil
 -   Comfort Level with Statistics
 -   CI 665 *Personal* Learning Objectives
 -   Concerns about the course
--   Potential Research FOCUS for Spring 2023
--   Fun Fact!
+-   Potential Research FOCUS for Fall 2025
 
 ## Kody Frey {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
--   Assistant Professor of Information Communication Technology and Instructional Communication Research
+-   Associate Professor of Information Communication Technology and Instructional Communication Research
 -   PhD from UKY in 2019 (Supervised by Derek Lane)
 -   MA from Illinois State and BA from Clemson
 -   Specialization is in instructional policies, behavioral learning, and research methods
@@ -63,40 +62,30 @@ We will end with the required *RCR 1 hour in-person training* component. You wil
 ::: {.column width="60%"}
 ![](Images/2021Headshot.JPG){fig-align="center" width="350" height="500"}
 :::
-:::
+:::::
 
 ## Who are you? {.smaller}
 
 ::: {layout-nrow="3"}
-![Elizabeth Abel](Images/xsmall.jpeg){fig-align="left"}
+![Jo-Anna Brown](Images/xsmall.jpeg){fig-align="left"}
 
-![Madelyn Anderson](Images/xsmall-2.jpeg){fig-align="left"}
+![Kayla Coffee](Images/xsmall%20(1).jpeg){fig-align="left"}
 
-![Ikeola Bodunde](Images/xsmall-3.jpeg){fig-align="left"}
+![Ryan Craig](Images/xsmall%20(2).jpeg){fig-align="left"}
 
-![Ivy Brashear](Images/xsmall-4.jpeg){fig-align="left"}
+![Evans Frimpong](Images/xsmall%20(3).jpeg){fig-align="left"}
 
-![Jordan DeLuce](Images/xsmall-5.jpeg){fig-align="left"}
+![Amanda Gyesi](Images/xsmall%20(4).jpeg){fig-align="left"}
 
-![Luke Fetzer](Images/xsmall-6.jpeg){fig-align="left"}
+![Fame Hale](Images/xsmall%20(5).jpeg){fig-align="left"}
 
-![Ansley George](Images/xsmall-7.jpeg){fig-align="left"}
+![Carlee Hogsten](Images/xsmall%20(6).jpeg){fig-align="left"}
 
-![Serena Hanson](Images/xsmall-8.jpeg){fig-align="left"}
+![Albert Nyarko](Images/xsmall%20(7).jpeg){fig-align="left"}
 
-![Marian Jaitto-Jeffrey](Images/xsmall-9.jpeg){fig-align="left"}
+![Vera Siripi](Images/xsmall%20(8).jpeg){fig-align="left"}
 
-![Courtney Kleppinger](Images/xsmall-10.jpeg){fig-align="left"}
-
-![Jacob Locke](Images/xsmall-11.jpeg){fig-align="left"}
-
-![Anthony Martinez](Images/xsmall-12.jpeg){fig-align="left"}
-
-![Erica Mattingly](Images/xsmall-13.jpeg){fig-align="left"}
-
-![Mark Ribott](Images/xsmall-14.jpeg){fig-align="left"}
-
-![Savannah Tucker](Images/xsmall-15.jpeg){fig-align="left"}
+![Lindsay Travis](Images/xsmall%20(9).jpeg){fig-align="left"}
 :::
 
 # Expectations
@@ -107,8 +96,8 @@ I will *commit* to giving you a world-class learning experience. But I will need
 
 -   Prepare for each week having read and reflected on the assigned readings
 -   Outline the readings
--   Annotate them with your thoughts
--   Keep track of your burning questions as you go
+-   Annotate them with *your thoughts*
+-   Keep track of your burning questions / points of confusion as you go
 -   Contribute to the class discussion
 
 If there is anything I can do to make this course more relevant to you, your work, and/or your research interests, please let me know. I encourage you to take advantage of my office hours, or better yet, email me to make an appointment. I have an open-door policy and I'm willing to help whenever and wherever needed.
@@ -126,11 +115,11 @@ Our success as a class is built on 4 elements:
 
 **Textbook**: [Research Methods in Applied Settings](https://www.routledge.com/Research-Methods-in-Applied-Settings-An-Integrated-Approach-to-Design-and/Gliner-Morgan-Leech/p/book/9781138852976)
 
-**Readings**: [Course Schedule](https://uk.instructure.com/courses/2061567/pages/weekly-schedule-slash-assigned-readings)
+**Readings**: [Course Schedule](https://uk.instructure.com/courses/2132240/pages/weekly-schedule-slash-assigned-readings)
 
 **APA 7th Edition**: [Purdue OWL](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html)
 
-**APA Template**: [Canvas](https://uk.instructure.com/courses/2061567/files/folder/Uploaded%20Media)
+**APA Template**: [Canvas](https://uk.instructure.com/courses/2132240/files/search?search_term=template)
 
 ## Course Expectations
 
@@ -142,12 +131,14 @@ Our success as a class is built on 4 elements:
 
 ## Learning Outcomes {.smaller}
 
-At the end of this course, students should be able to: 
+At the end of this course, students should be able to:
+
 -   Develop research ideas and turn them into testable questions;
 -   Design and conduct ethical social scientific studies using quantitative research approaches;
 -   Map theoretical constructs onto their concrete operationalizations;
 -   Measure latent constructs in reliable and valid ways;
--   Locate, critically read, summarize, and critique reports of empirical research; - Write transparent reports of studies using quantitative research methods.
+-   Locate, critically read, summarize, and critique reports of empirical research;
+-   Write transparent reports of studies using quantitative research methods.
 
 ## Daily Structure
 
@@ -155,25 +146,28 @@ At the end of this course, students should be able to:
 -   10 min Break
 -   Readings / Discussion (50 minutes)
 -   10 min break
--   Workshop (45 minutes)
+-   Workshop (50 minutes)
 
 ## Course Structure {.smaller}
 
--   Weekly Reaction Papers (150)
 -   In-Class Participation (50)
+-   Concept Paper #1 - Conceptualization (50)
+-   Concept Paper #2 - Operationalization (50)
+-   Concept Paper #3 - Methods Section (100)
 -   Midterm Exam (200)
--   CITI Certification (50)
--   IRB Protocol (50)
--   Study Codebook (50)
--   Final Survey in Qualtrics (50)
--   Final Group Research Paper (300)
+-   Statistical Problem Sets (3 x 50 each; 150 total)
+-   Research Paper (300):
+  -   CITI Certification (50)
+  -   IRB Protocol (50)
+  -   Final Survey in Qualtrics (50)
+  -   Final Paper (150)
 -   Final Conference Presentation (100)
 
 ## Course Structure {.smaller}
 
 Final Group Research Paper
 
-You will work in groups of 3 to complete your own, data-driven research paper. You can decide your groups based on today's introductions and research interests. Topics need to be approved by 1/27.
+You will work in groups of 2-3 to complete your own, data-driven research paper. You can decide your groups based on today's introductions and research interests. Topics need to be approved by 9/8.
 
 # Content Part 1
 
@@ -279,7 +273,7 @@ Focus is on how people behave when they are absorbed in *genuine life experience
 
 ### Our Focus
 
-To make trusthworhty *generalizations*...
+To make trusthworthy *generalizations*...
 
 -   Samples must be **representative**
 -   Response rates must be **sufficient**
@@ -306,7 +300,7 @@ We also increase knowledge within a discipline by creating methods to assess beh
 -   A new method of observational analysis
 -   A technique for coding public data
 
-# Dichotomires
+# Dichotomies
 
 ## Theoretical vs. Applied
 
@@ -332,16 +326,16 @@ In the postpositivist/quantitative framework, a specific plan is developed prior
 
 In the constructivist/ qualitative approach, less structure is placed on the use of specific guidelines in the research design.
 
-___
+------------------------------------------------------------------------
 
 Derived from our metatheoretical assumptions:
 
 -   Epistemology
-    -   One truth < - > Multiple truths
+    -   One truth \< - \> Multiple truths
 -   Ontology
-    -   Reactors < - > Humans as actors
+    -   Reactors \< - \> Humans as actors
 -   Axiology
-    -   Value neutral < - > Value laden
+    -   Value neutral \< - \> Value laden
 
 ## Objective vs. Subjective
 
@@ -349,7 +343,7 @@ Derived from our metatheoretical assumptions:
 
 Behaviors are collected and quantified with reliable instruments.
 
-___
+------------------------------------------------------------------------
 
 **Qualitative Data** are said to be subjective.
 
@@ -379,7 +373,7 @@ The *associational approach*, sometimes called correlational, has two or more us
 
 ## Descriptive
 
-The *descriptive approach*  refers to research questions that use only descriptive, not inferential, statistics.
+The *descriptive approach* refers to research questions that use only descriptive, not inferential, statistics.
 
 ## Why does this matter?
 
@@ -389,11 +383,11 @@ Categorizing helps researchers decide if a goal is to establish cause-and-effect
 
 It also allows you to directly follow the path from the general purpose of the research to the specific hypothesis.
 
-___
+------------------------------------------------------------------------
 
 ![](Images/GML.jpg){fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 The type of question/hypothesis will eventually dictate the type of analysis that you conduct!
 
@@ -411,16 +405,16 @@ Methods are designed to promote the generation of theory, which can then be appl
 
 Quantitative researchers are interested in how an understanding of a particular communication phenomenon might be generalized to a larger population.
 
-___
+------------------------------------------------------------------------
 
-Quantitative research: 
+Quantitative research:
 
 -   Is *systematic*. It is intentional, replicable, and valid.
 -   Observes, explains, and predicts
 -   Tests theories that describe human behavior
 -   Answers questions of **group differences** or **variable relationships**
 
-# Content  Part 2
+# Content Part 2
 
 ## GML Chapter 14
 
@@ -434,7 +428,7 @@ Quantitative research:
 
 ## Historical Overview
 
-Basically, people have done some messed up stuff.
+Basically, people have done some messed up stuff. UK is not immune!
 
 Led the federal government to establish regulations on the protection of human subjects.
 
@@ -472,11 +466,11 @@ It mandated that there be institutional review boards at each research instituti
 
 # IRBs and How They Work
 
-___ 
+------------------------------------------------------------------------
 
 ![](Images/Bullies.png){fig-align="center"}
 
-___
+------------------------------------------------------------------------
 
 I am here to guide you through the process!
 
@@ -486,8 +480,7 @@ Week 4 Workshop will help you design your *research protocol*.
 
 ## CITI Training
 
-![](Images/CITI.png){fig-align="center"}
-**DUE**: January 16th
+![](Images/CITI.png){fig-align="center"} **DUE**: September 1
 
 -   [Responsible Conduct of Research](https://www.research.uky.edu/responsible-conduct-research)
 -   [Group 2 Social/Behavioral Investigators and Key Personnel](https://www.research.uky.edu/office-research-integrity/human-subject-protection-hsp-training-faqs)
