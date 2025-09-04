@@ -1,7 +1,7 @@
 ---
 title: "Week 3: Conceptualizing Quant Comm Research"
 author: "Dr. T. Kody Frey"
-institute: "Assistant Professor | School of Information Science" 
+institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
     theme: [sky]
@@ -21,13 +21,13 @@ self-contained: true
 
 -   BRIEF review
 -   Planning a Quant Research Project
--   Key Terms!
+-   Key Terms and Definitions
 -   Using Stats in Quant Research
--   Discussion: Different Perspectives
--   Workshop: Setting up your research infrastructure
-    -   Getting situated with R
-    -   Understanding your research progression
-    -   Keeping track of your progress!
+-   Discussion: Different Perspectives 
+-   Workshop: Group Collaboration / Literature Search Day
+    -   Form RQs
+    -   Explore potential IVs and DVs
+    -   Leave with a focus on final projecty
 
 # Old Content: Review!
 
@@ -66,13 +66,11 @@ Dubin (1978)
 ### Textual Analysis
 
 -   Purpose is to describe and interpret the characteristics of a recorded or visual message.
-
 -   Focus is on content, structure, and functions of messages contained in texts.
 
 ### Naturalistic Inquiry
 
 -   Purpose is to study people in the situations where they usually interact, behaving as they customarily do when engaged in everyday activity.
-
 -   Focus is on how people behave when they are absorbed in *genuine life experiences*.
 :::
 
@@ -91,7 +89,7 @@ Dubin (1978)
 
 . . .
 
--   Purpose is to discover how large groups of people think and act.
+-   Purpose is to discover how *large groups of people* think and act.
 -   Describes the characteristics of the respondents and the populations they were chosen to represent.
 
 ------------------------------------------------------------------------
@@ -223,6 +221,20 @@ Quantitative research:
 -   Security of Data
 -   Authorship
 
+------------------------------------------------------------------------
+
+**What are 1-2 characteristics of quantitative communication researchers?**
+
+-   Systematic
+-   Objective
+-   Analytical
+-   Precise
+-   Empirical
+-   Critical
+-   Replicable
+-   Theoretical
+-   Others?
+
 # GML Chapter 2
 
 ------------------------------------------------------------------------
@@ -250,7 +262,7 @@ Research problems commonly come from:
 
 ## Characteristics of Good Research Problems {.smaller}
 
-Good research problems are grounded in empirical and theoretical literature, stated clearly, testable, feasible, and of vital interest to *you*
+Good research problems are grounded in empirical and theoretical literature, stated clearly, *testable*, feasible, and of vital interest to you
 
 ::: panel-tabset
 ### Broad vs. Narrow
@@ -268,6 +280,7 @@ Can make it hard to find literature or establish the gap that you will fill.
 Is there a reason the thing you are interested in is unexplored?
 
 Quantitative researchers tend to place considerable emphasis on finding gaps in the literature so they tend to study relatively well-researched areas.
+
 :::
 
 ## Characteristics of Good Problem Statements
@@ -286,7 +299,7 @@ Examples:
 
 -   What patterns of deceptive communication characterize close relationships?
 -   Do men and women report significantly different levels of satisfaction with conflict interaction?
--   What is the relationship between the amount of television watched by adults and the level of anixety about personal safety?
+-   What is the relationship between the amount of television watched by adults and the level of anxiety about personal safety?
 
 ## Literature Review
 

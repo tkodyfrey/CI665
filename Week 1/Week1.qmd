@@ -157,10 +157,10 @@ At the end of this course, students should be able to:
 -   Midterm Exam (200)
 -   Statistical Problem Sets (3 x 50 each; 150 total)
 -   Research Paper (300):
-  -   CITI Certification (50)
-  -   IRB Protocol (50)
-  -   Final Survey in Qualtrics (50)
-  -   Final Paper (150)
+-   CITI Certification (50)
+-   IRB Protocol (50)
+-   Final Survey in Qualtrics (50)
+-   Final Paper (150)
 -   Final Conference Presentation (100)
 
 ## Course Structure {.smaller}
