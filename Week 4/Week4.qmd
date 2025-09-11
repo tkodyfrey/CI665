@@ -1,7 +1,7 @@
 ---
 title: "Week 4: Who are you studying?"
 author: "Dr. T. Kody Frey"
-institute: "Assistant Professor | School of Information Science" 
+institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
     theme: [simple]
@@ -339,7 +339,7 @@ The participants that complete the study and whose data are actually used in the
 
 ------------------------------------------------------------------------
 
-![](Images/Sample)
+![](Images/Sample.png)
 
 ------------------------------------------------------------------------
 
@@ -381,7 +381,7 @@ All involve randomization at some point!
 
 ## Why Nonprobability Samples?
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 -   Cost
 -   Efficiency
@@ -392,7 +392,7 @@ All involve randomization at some point!
 ::: {.column width="40%"}
 ![](Images/KF4.jpeg){.r-stretch fig-align="center" height="500"}
 :::
-:::
+:::::
 
 ## When are Samples Unrepresentative?
 
