@@ -322,7 +322,7 @@ Problems are created when groups are assigned based on similarities - not random
 
 All the participants of theoretical interest to the research and to which he or she would like to generalize.
 
-### Accesible Population
+### Accessible Population
 
 Also called *sampling frame*
 
