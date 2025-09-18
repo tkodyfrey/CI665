@@ -1,7 +1,7 @@
 ---
 title: "Week 5: The Independent Variable"
 author: "Dr. T. Kody Frey"
-institute: "Assistant Professor | School of Information Science" 
+institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
     theme: [simple]
@@ -19,12 +19,12 @@ self-contained: true
 
 # Overview {.smaller}
 
--   BRIEF review
+-   Review!
 -   Research approaches in general (Ch. 4)
 -   Experimental designs (Chs. 5-6)
 -   Nonexperimental designs (Ch. 7)
 -   Discussion: The Independent Variable
--   Workshop: Codebooks and Power! Oh my!
+-   Workshop: G*Power / Storyboarding Your Projects
 
 # Brief Review
 
@@ -107,8 +107,8 @@ Among other reasons...
 
 Internal validity refers to the extent that the independent variable, treatment, or intervention caused the change in the dependent variable. We evaluate it based on...
 
--   Equivalence of groups on participant characteristics
--   Control of extraneous experiences and environment variables
+-   *Equivalence of groups* on participant characteristics
+-   *Control of extraneous experiences* and environment variables
 
 ------------------------------------------------------------------------
 
@@ -144,7 +144,7 @@ The sampling frame represents an exhaustive list of the participants that a rese
 
 ------------------------------------------------------------------------
 
-::: r-fit-text
+:::: r-fit-text
 **What are the *two* types of external validity**?
 
 *External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
@@ -162,14 +162,14 @@ Whether the conditions, settings, times, testers, or procedures are rep of natur
 
 AKA is the research environment similar to the natural environment? Does the manipulation of the IV feel real to the participants?
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
 ## Application
 
 ::: r-fit-text
-Let's say your group wants to study men and womens' reactions to violent crime shows on national TV.
+Let's say your group wants to study how students' public speaking anxiety influences grades on a speech.
 
 -   What is the IV? DV? Constant?
 -   What would be an appropriate sampling technique for your group?
@@ -235,7 +235,7 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 
 ### Additional Notes
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 -   Randomness implies there is no bias
 -   Random sampling comes *before* random assignment
@@ -244,7 +244,7 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 ::: {.column width="70%"}
 ![](Images/Meme1.jpeg){.r-stretch}
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -252,10 +252,10 @@ Let's say your group wants to study men and womens' reactions to violent crime s
 
 ------------------------------------------------------------------------
 
-::: r-fit-text
+:::::: r-fit-text
 Listed below are some differences among the five approaches to research. Match the description (A--E) that best fits the type of approach (a--e).
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 -   
 
@@ -285,8 +285,8 @@ Listed below are some differences among the five approaches to research. Match t
 -   D. Associates the many levels of one variable with the many levels of another
 -   E. Randomized assignment, tries to determine causality
 :::
-:::
-:::
+:::::
+::::::
 
 # GML Chapter 5
 
@@ -448,88 +448,7 @@ Can you provide an example of each?
 
 ## What's Next?
 
-The first of our two lessons on measurement will be very broad, focusing on measurement theory and definitions. The goal is for you to leave class with a basic understanding of the differences between conceptual and operational approaches, as well as the general steps in developing a measure to adequately assess a variable of interest.
-
-# Creating a Codebook
-
-## What is a codebook?
-
-The codebook essentially has two functions:
-
--   To provide a guide for the research team coding the data
--   To document the data file's layout and code descriptions
-
-Basically, it helps you keep track of your data as it moves across various stages of the project.
-
-## What does it include? {.smaller}
-
--   Survey objectives
--   A description of the design and method
--   A copy of the survey
--   Steps for data cleaning and recording (so you can backtrack later)
--   Conceptual definitions
--   Operational definitions (i.e., the scales you used)
--   Response formats (e.g., Likert, Thurstone, semantic differential)
--   Descriptive info for measures (alpha or omega, means, SDs)
--   Variable names and codes
-
-## Example: Instructor Background and Zoom Cameras
-
-### The Study
-
-![Title](Images/Code1.png){.r-stretch fig-align="center" height="350"}
-
-------------------------------------------------------------------------
-
-![TOC](Images/Code2.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-![Settings](Images/Code3.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-![Conditions](Images/Code4.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-![Manipulation Check](Images/Code5.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-![DV](Images/Code6.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-![Demos](Images/Code7.png){.r-stretch fig-align="center"}
-
-------------------------------------------------------------------------
-
-## The Worst Case Scenario...
-
-The codebook helps you keep track of your steps.
-
-If you (or a reviewer) has an issue with your data, you have a map of everything that can be done! This allows for easy explanation and/or correction.
-
-## Next Steps for your Codebook? {.smaller}
-
-Right now, you are probably working on the IRB protocol. This involves knowing a few things:
-
--   Some background literature
--   The RQs or Hs
--   The survey design
--   Recruitment advertisements / messages
--   The measures you want to use
--   The sample you want to reach
--   How many people you want to sample?
-
-Divide and Conquer.
-
-## Frey Facts
-
-Make your codebook however you want. Just keep good records.
-
-![](Images/Meme5.jpeg)
+The goal of our lesson on measuring the DV is for you to leave class with a basic understanding of the differences between conceptual and operational approaches, as well as the general steps in developing a measure to adequately assess a variable of interest.
 
 # Power Analyses
 
@@ -542,7 +461,7 @@ In other words, it is the *probability of rejecting the null hypothesis when it 
 ## An example
 
 ::: r-fit-text
-For example, let's say that we have a simple study with drug A and a placebo group, and that the drug truly is effective; the power is the probability of finding a difference between the two groups. So, imagine that we had a power of .8 and that this simple study was conducted many times. Having power of .8 means that 80% of the time, we would get a statistically significant difference between the drug A and placebo groups. This also means that 20% of the times that we run this experiment, we will not obtain a statistically significant effect between the two groups, even though there really is an effect in reality.
+For example, let's say that we have a simple study with drug A and a placebo (control) group, and that the drug truly is effective; the power is the probability of finding a difference between the two groups. So, imagine that we had a power of .8 and that this simple study was conducted many times. Having power of .8 means that 80% of the time, we would get a statistically significant difference between the drug A and placebo groups. This also means that 20% of the times that we run this experiment, we will not obtain a statistically significant effect between the two groups, even though there really is an effect in reality.
 :::
 
 ## Other Definitions
@@ -614,3 +533,8 @@ BUT, the more stringent we are at avoiding false positives, the more we increase
 ------------------------------------------------------------------------
 
 ![](images/Gpower2.png)
+
+# Storyboarding!
+
+Think about how you are going to operationalize your IV (manipulate it, measure it continuously, observe it, etc.). Let's sketch out the design of your study (e.g., experiment vs. survey), identifying key elements like the sample, procedure, survey flow, and manipulation. 
+

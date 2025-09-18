@@ -14,7 +14,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: bottom
 editor: visual
-self-contained: true
+self-contained: false
 ---
 
 # Getting Started
