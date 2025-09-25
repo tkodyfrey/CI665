@@ -1,7 +1,7 @@
 ---
-title: "Week 6: Measuring the Dependent Variable I"
+title: "Week 6: Measuring the Dependent Variable"
 author: "Dr. T. Kody Frey"
-institute: "Assistant Professor | School of Information Science" 
+institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
     theme: [beige]
@@ -19,16 +19,17 @@ self-contained: true
 
 ## Overview {.smaller}
 
--   BRIEF review
--   Measurement and Dependent Variables: Part 1
+-   Lightning review
+-   Measurement Fundamentals
+-   Normality, Reliability, and Validity
 -   Discussion: Building Meaningful Measures
 -   Workshop: Let's Measure
     -   Operationalizing Variables
     -   Applying to your study
 
-## What's Next?
+## What's Next: Some Changes
 
-![](images/Week.png){r-fig-align="center"}
+![](images/Update.png){r-fig-align="center"}
 
 # Old Content: Review!
 
@@ -52,8 +53,8 @@ Internal validity depends on the strength or soundness of the design and influen
 
 Internal validity refers to the extent that the independent variable, treatment, or intervention caused the change in the dependent variable. We evaluate it based on...
 
--   Equivalence of groups on participant characteristics
--   Control of extraneous experiences and environment variables
+-   *Equivalence of groups* on participant characteristics
+-   *Control of extraneous experiences* and environment variables
 
 ------------------------------------------------------------------------
 
@@ -172,7 +173,7 @@ How do we ensure that a sample is representative of the target theoretical popul
 
 ### Types of Sampling
 
-::: r-fit-text
+:::: r-fit-text
 ::: panel-tabset
 ### Probability Sampling {.smaller}
 
@@ -194,7 +195,7 @@ No method to estimate probability of being included:
 -   Convenience Sampling
 -   Snowball Sampling
 :::
-:::
+::::
 
 ::: notes
 Give them the sampling handout here
@@ -204,7 +205,7 @@ Give them the sampling handout here
 
 ### Types
 
-::: r-fit-text
+:::: r-fit-text
 **What are the *two* types of external validity**?
 
 *External validity* is the extent to which samples, settings, and variables can be generalized beyond the study.
@@ -222,37 +223,11 @@ Whether the conditions, settings, times, testers, or procedures are rep of natur
 
 AKA is the research environment similar to the natural environment? Does the manipulation of the IV feel real to the participants?
 :::
-:::
+::::
 
 ## Other Types of Validity?
 
 ![](images/Validity.png)
-
-## Power
-
-::: r-fit-text
-Power is the probability of detecting an effect, given that the effect is really there.
-
-In other words, it is the *probability of rejecting the null hypothesis when it is in fact false*.
-
-::: panel-tabset
-### Alpha {.smaller}
-
-The probability of a Type I error (reject a true null).
-
-For a test with a level of significance of 0.05 = 1/20, a true null hypothesis will be rejected one out of every 20 times.
-
-We are willing to live with a 5% chance that we will conclude that there is a difference when there really isn't (we are 95% confident).
-
-### Beta {.smaller}
-
-The probability of a Type II error (fail to reject a false null)
-
-The probability that we would accept the null hypothesis even if the alternative hypothesis is actually true
-
-If power is .80 or 80%, then beta is .2 or 20%
-:::
-:::
 
 ## Key Terms
 
@@ -299,7 +274,7 @@ In other cases, the variables we are interested in might be *continuous*.
 This is most often the *dependent* variable (i.e., what is thought to be changed by the IV)
 :::
 
-# Measurement: Dependent Variables Part I
+# Measurement: Dependent Variables
 
 ## Measurement Theory (Stevens, 1958)
 
@@ -370,7 +345,7 @@ Ordered from low to high, responses are at least approximately normally distribu
 
 ## Descriptive Statistics: Central Tendency
 
-::: r-fit-text
+:::: r-fit-text
 ::: panel-tabset
 ### Mean
 
@@ -389,7 +364,7 @@ Ordered from low to high, responses are at least approximately normally distribu
 -   Least precise
 -   Useful for nominal or dichotomous data or few categories
 :::
-:::
+::::
 
 ## Which do I use?
 
@@ -446,7 +421,7 @@ A standard score that indicates the number of standard deviation units that a pe
 
 ## An Example {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 Let's say $\overline{x}$ = 70 and s = 15.22 represent values for student test scores.
 
@@ -457,7 +432,7 @@ Let's say $\overline{x}$ = 70 and s = 15.22 represent values for student test sc
 ::: {.column width="60%"}
 ![](images/norm7.png){fig-align="center"}
 :::
-:::
+:::::
 
 ## What makes this useful? {.smaller}
 
@@ -471,7 +446,242 @@ Allows you to **compare scores** on different tests.
 
 ------------------------------------------------------------------------
 
-![](images/norm8.png){.r-stretch fig-align="center"}
+![](images/norm8.png){.r-stretch fig-align="center"} 
+
+# GML Chapter 11
+
+Think of a target!
+
+Study quality depends on the *consistency* and accuracy of measurement instruments.
+
+## Measurement Reliability {.smaller}
+
+Think about what it means to be a reliable person.
+
+. . .
+
+Reflects the **consistency of a series of measurements**
+
+Are people responding to a measure consistently over time?
+
+If our outcome measure does not provide reliable data, then we cannot accurately assess the results of our study.
+
+How do we know that a score is due to the intervention or due to some other, unsystematic factor?
+
+## Understanding Reliability
+
+Reliability is a *coefficient*
+
+The ratio of the variance of true scores to the variance of observed scores
+
+The higher the reliability of the data, the closer the true scores will be to observed scores
+
+## Indicating Reliability
+
+::: r-fit-text
+Reliability will be displayed as a correlation
+
+This indicates the strength of the relationship between two variables
+
+**A strong positive relationship indicates that people who score high on one test also will score high on a second test.** To say that scores from a measure are reliable, one usually would expect a coefficient between +.7 and +1.0.
+
+Reliabilities will not be negative (or something is wrong)
+:::
+
+## Assessing reliability {.smaller}
+
+-   Test retest
+-   Parallel forms
+-   Split-half
+-   KR-20
+-   **ALPHA**
+-   Percentage agreements
+-   ICC
+-   Kappa
+-   **OMEGA**
+
+## Alpha
+
+$\alpha$
+
+-   Measures **internal consistency**
+    -   The consistency of people's responses across the items on a multiple-item measure
+    -   Do all items reflect the same underlying construct?
+-   Only used when one has multiple items being combined for composite
+-   Mean of all possible split-half correlations for a set of items
+
+## Omega
+
+$\omega$
+
+-   Measures **internal consistency** but BETTER
+-   Only used when a measure is *unidimensional*
+-   The gold standard for reliability of composite scores
+-   Alpha depends on a variety of restrictive conditions that Omega bypasses
+
+## Application
+
+An instrument of support was used to measure perceived support from coworkers in a mental health institution. Participants responded to four items on a seven-point Likert-like scale. Cronbach's alpha for the (support) scale was .79. What does this mean?
+
+## Choosing a Measure
+
+-   Past reliability needs to be high
+    -   This ensures participants will respond consistently in your study
+-   Samples need to be similar
+
+## Why is this important?
+
+If we have less reliable measures, we are less confident that our participants' observed scores are close to their true scores.
+
+## Observed Scores
+
+Any score that we obtain from an individual on an instrument
+
+Observed score = True Score + Error
+
+We cannot know the true score, but we can estimate where it might fall
+
+## Standard Error of Measurement
+
+A range of scores (i.e., confidence interval) within which should lie a performer's true score.
+
+![](images/SE.png){fig-align="center"}
+
+## Establishing Confidence
+
+Most of the time, we want to be 95% sure that we capture the true score (2 standard deviations)
+
+![](images/norm6.png){fig-align="center" width="2500"}
+
+## Putting it together {.smaller}
+
+Lets say we are measuring *satisfaction*
+
+::: panel-tabset
+### Calculating SEM
+
+$\sigma^2$ = 15 $\alpha$ = .92 SEM = 4.24
+
+### The Observed Score
+
+Someone completes the combined measures and scores a 110 total
+
+If the instrument has 20 Likert questions ranging from 1 to 7, possible values are 20 to 140.
+
+### Z Scores
+
+The z score for any score that is 2 standard deviations away is 1.96
+
+### Confidence Interval {.smaller}
+
+1.96 \[Z score\] \* 4.24 \[SEM\] = 8.32
+
+We can conclude that our true score falls within the 95 percent confidence interval of 110 ± 8.32 or between **101.68 and 118.32**
+
+If the test were given to the same person a large number of times, 95 percent of the confidence intervals would contain the true score.
+:::
+
+## Counter Example {.smaller}
+
+Lets say we are measuring *satisfaction*
+
+::: panel-tabset
+### Calculating SEM
+
+$\sigma^2$ = 15 $\alpha$ = .65 SEM = 8.87
+
+### The Observed Score
+
+Someone completes the combined measures and scores a 110 total
+
+If the instrument has 20 Likert questions ranging from 1 to 7, possible values are 20 to 140.
+
+### Z Scores
+
+The z score for any score that is 2 standard deviations away is 1.96
+
+### Confidence Interval {.smaller}
+
+1.96 \[Z score\] \* 8.87 \[SEM\] = 17.39
+
+We can conclude that our true score falls within the 95 percent confidence interval of 110 ± 17.39 or between **92.61 and 127.61**
+
+We are *less precise* in our understanding of how participants are responding
+:::
+
+# GML Chapter 12
+
+More targets!
+
+Study quality depends on the consistency and *accuracy* of measurement instruments.
+
+## Measurement Validity
+
+Concerned with *establishing evidence* for the use of a particular measure or instrument in a particular setting with a particular population for a specific purpose.
+
+*accumulating evidence* to provide a sound scientific basis for the proposed score interpretations.
+
+**Are we hitting the target?**
+
+## Differences from Reliability
+
+Reliability is necessary for validity, but one can have consistent data that is not valid.
+
+Suppose I used measurements of your dart throws to indicate your ability to pass this class.
+
+-   If you all hit the target in similar ways, we would have reliability
+-   Data is not valid because it is not giving information about ability to pass the course
+
+## Understanding Validity
+
+Validity is tough to establish and takes multiple studies
+
+One type of evidence is insufficient for validity
+
+Often must demonstrate performance of measure in relation to other, similar measures
+
+There is *no statistic* for validity
+
+## Types of Validity {.smaller}
+
+-   Face
+-   Content
+-   Criterion
+    -   Predictive
+    -   Concurrent
+-   Construct
+    -   Convergent
+    -   Discriminant
+    -   Factorial
+
+## Grit Example
+
+**Predictive**: Do scores on grit predict graduation from West Point?
+
+**Concurrent**: Does grit relate to amount of time studying for a test?
+
+**Convergent**: Is grit related to a measure of a theoretically similar variable (e.g., resilience)
+
+**Divergent**: Is grit different from a theoretically similar variable (e.g., different from coping)
+
+## Establishing Support
+
+The goal should be to build evidence that a measure performs in ways one would expect.
+
+-   Use experts of focus groups to establish that *content* represents concept
+-   Establish correlations with other measures we theoretical expect it to
+-   Establishing the *nomological network*
+
+## Frey Facts
+
+In general, it is advisable to select instruments that have been used in other studies if they have been shown to produce *reliable* and *valid* data with the types of participants and for the purpose that you have in mind.
+
+## Summary
+
+-   Measurement is complex!
+-   Make sacrifices when you choose a specific type of measure
+-   Reliability involves the **consistency** of reponses
+-   Validity reflects the **accuracy** of responses
 
 # Back to Ch. 13: Data Collection Techniques
 
@@ -510,7 +720,7 @@ A set of problems with right or wrong answers
 
 ## Self-Report Measures
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 -   Standardized Personality Inventories
 -   Attitude scales
@@ -521,7 +731,7 @@ A set of problems with right or wrong answers
 ::: {.column width="70%"}
 ![](images/Lick1.png){fig-align="center"}
 :::
-:::
+:::::
 
 ## Questionnaires and Interviews {.smaller}
 
@@ -550,12 +760,6 @@ Survey research methods!
     -   All allowable responses given
 :::
 
-## Final Thoughts:
-
-**WHY is the measurement theory important in quantitative statistical analysis??**
-
-BOTTOM LINE: Levels of measurement influence the appropriate use of statistics!
-
 ------------------------------------------------------------------------
 
 ## Frey Facts
@@ -564,23 +768,30 @@ In general, it is advisable to select instruments that have been used in other s
 
 If those aren't available...
 
-# Developing a Measure
+## Developing a Measure
 
 Scale development is useful for capturing not directly observable concepts
 
 -   This is what is meant by 'latent'
 
+## Final Thoughts:
+
+**WHY is the measurement theory important in quantitative statistical analysis??**
+
+BOTTOM LINE: Levels of measurement influence the appropriate use of statistics!
+
 ------------------------------------------------------------------------
 
 ![](images/Steps.png){fig-align="center"}
 
-## Associated Steps
+# Workshop: Operationalization and Measurement
 
-For your projects...
+## This Workshop
 
--   Need to *define* what you are interested in
--   Need to create *multiple items* to capture abstract constructs
--   Will use EFA to reduce multiple items down to meaningful few
+-   Pick one of your dependent variables
+-   Write a definition
+-   Come up with 25-30 items based on that definition of how you would measure that construct
+-   Now find and existing scale and compare!
 
 ## Phrasing items and questions {.smaller}
 
@@ -596,26 +807,3 @@ General Guidelines
 -   Avoid items everyone or no one will endorse
 -   Avoid mixing items that assess behaviors with items that assess affective responses
     -   Ex: My boss is hardworking vs I respect my boss
-
-## Developing an item pool
-
-Fundamental goal at this stage is to sample systematically all content that is potentially relevant to the target construct.
-
-You will drop weak items but cannot add them back.
-
-Recommend Likert scale but you can use semantic differential if you really want.
-
-## This Workshop
-
--   Pick a concept that your group wants to measure for project
--   Write a definition
--   Come up with 25-30 items based on that definition
--   Focus groups!! Use OneDrive doc on Canvas
-
-## Reviewers
-
--   Read definition closely
-    -   What is missing or runs counter to your knowledge?
--   Read items closely
-    -   Does the wording make sense?
-    -   Do the items reflect the definition?
