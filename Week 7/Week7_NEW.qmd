@@ -20,7 +20,7 @@ self-contained: true
 ## Overview {.smaller}
 
 -   Q&A: Where are the Rakes?
--   Making Sense of Your Data: An Initial Foray 
+-   Making Sense of Your Data: An Initial Foray
 -   Workshop: Survey Construction in Qualtrics
 
 # The Midterm
@@ -127,7 +127,7 @@ Context: Working study on the effects perceived *instructor strictness* on motiv
 
 ## Understanding the Space
 
-![](images/Data.png){fig-align="center"}
+![](images/DataNew.png){fig-align="center"}
 
 ## Important Pieces
 
