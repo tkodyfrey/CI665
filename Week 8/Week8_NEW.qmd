@@ -566,7 +566,6 @@ You now have a Fisher-Price stats toolkit :)
 
 Rely on mentors, examples to guide you through more complex stats.
 
-
 # Midterm Study Guide
 
 You have a maximum of 12 pages for your typed, double-spaced responses; be accurate and concise (like a quantitative researcher).
@@ -837,7 +836,7 @@ How would your design address:
 ## An Example
 
 ::: r-fit-text
-Let's say your group wants to study men and womens' reactions to violent crime shows on national TV.
+Let's say your group wants to study how specific types of messaging in television influence fitness habits.
 
 -   Can you envision an experimental approach?
 -   Can you envision a survey approach?
