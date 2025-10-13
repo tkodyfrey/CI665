@@ -143,7 +143,7 @@ How many groups would you need for the study?
 
 ## Class Example
 
-Lindsay and Fame are examining how UK staff respond and react to different alert systems distributed on campus. 
+Lindsay and Fame are examining how UK staff respond and react to different alert systems distributed on campus.
 
 -   IV: Type of alert (2 levels: personalized message, non-personalized message)
 -   DV: self-efficacy for compliance
@@ -362,7 +362,7 @@ Normally-distributed DV
 
 EX: Does total optimism differ by age groups?
 
-\*You COULD do this by running a whole bunch of t tests, but you inflate changes for Type I error.
+\*You COULD do this by running a whole bunch of t tests, but you inflate chance for Type I error.
 
 ### Steps
 
@@ -567,6 +567,77 @@ MOST designs are going to be simple; Complex does not mean BETTER
 You now have a Fisher-Price stats toolkit :)
 
 Rely on mentors, examples to guide you through more complex stats.
+
+# Pop Quiz! (Not for a Grade)
+
+## Part I: Conceptual Understanding
+
+::: {.incremental}
+1.  What is the difference between within-subjects designs and between-groups designs?
+
+2.  Explain why the independent variables for a within-subjects design are not usually attribute independent variables.
+
+3.  Give an example of a within-subjects/repeated-measure design.
+:::
+
+------------------------------------------------------------------------
+
+::: {.incremental}
+
+4. What does the term 'distribution' mean?
+
+5. What are the three general assumptions for the use of parametric statistics? Explain each one.
+
+6. What type of independent variable is needed to conduct a one-way ANOVA? What type of dependent variable is needed?
+
+7. How should you decide whether your research is a difference question or an associational question?
+
+8. How should you determine whether you should use basic or complex statistical analyses?
+:::
+
+------------------------------------------------------------------------
+
+## Example Applications {.smaller}
+
+Identify the IV and DV. Identify whether it is BG or WS and name it correctly.
+
+9. A humanities professor who was going to lead a year-long study abroad program wondered if travel experience had any impact on students’ ability to understand and embrace diversity in others. At the beginning of the school year the professor gave all the students the Multicultural Acceptance Scale. This scale also was given at the end of the year when the students returned from abroad and 2 years later. 
+
+## Example Applications {.smaller}
+
+10. A dog trainer was interested in knowing whether her new aversive approach to obedience training was effective. She divided her new clientele into three different groups. The first group received traditional dog training, wherein good behavior is rewarded with praise and treats. The second group received the new aversive training, wherein nonconforming
+behavior was punished with temporary removal of water and food, slaps on the nose, and loud yelling by the trainer and the owner. Participants in the third group were the control and did not get any training for their dogs. Before the training and 3 months later the trainer rated the dogs from all three groups on a dog obedience scale.
+
+------------------------------------------------------------------------
+
+Create an original example and decide which analysis is most appropriate.
+
+::: {.incremental}
+11. One independent variable, three levels, between groups, one normally distributed dependent variable.
+
+12. Two between-groups independent variables, each with three levels, one normally distributed dependent variable.
+
+:::
+
+------------------------------------------------------------------------
+
+::: {.incremental}
+13. One between-groups independent variable, one repeated-measures independent variable, each with two levels, one normally distributed dependent variable.
+
+14. One independent variable, two levels, repeated measures, one normally distributed dependent variable.
+
+15. The director of special education in a suburban school district wanted to compare two schools in terms of how English as a Second Language (ESL) students were performing in their respective schools. The independent variable was school, with two levels. Dependent variables included ESL students’ standardized national test scores in each of the four subject areas. What type of statistic should be used in this study and why?
+:::
+
+## Stats!
+
+::: {.incremental}
+16. Under what conditions would you use a single-factor ANOVA?
+
+17. Explain what the numbers mean in the following: t280 = 6.21, p = .032.
+
+18. When do you use a t test versus an F test (ANOVA)?
+:::
 
 # Midterm Study Guide
 
