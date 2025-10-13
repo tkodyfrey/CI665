@@ -145,10 +145,10 @@ How many groups would you need for the study?
 
 Lindsay and Fame are examining how UK staff respond and react to different alert systems distributed on campus. 
 
--   IV: Type of alert (3 levels: text, call, OTHER)
+-   IV: Type of alert (2 levels: personalized message, non-personalized message)
 -   DV: self-efficacy for compliance
 
-This is currently a *single-factor* design. How would you make it a between-subjects design?
+This is currently a *single-factor* design. How would you make it a between-subjects factorial design?
 
 ## Within-Subjects Factorial Designs
 
@@ -162,7 +162,9 @@ EX: The effect of teaching style (traditional or inquiry based) on student engag
 
 To assess the CIS courses in the School of Information Science, we collect data from all course sections in August, December, January, and April to see if participation in course influences public speaking self-efficacy.
 
-EX: The effect of class time on public speaking self-efficacy over time.
+EX: How does a public speaking course influence public speaking self-efficacy over time (4 months).
+
+This is currently a *single-factor* design. How would you make it a within-subjects factorial design?
 
 ## Mixed Designs
 
@@ -225,7 +227,7 @@ We are going to go through A LOT of tests.
 
 I'm not going to show you *how* to run each one (i.e., what buttons to press)
 
-IMO - it is more important to know which test is *appropriate* and how to *interpret* it. Once you figure out which test to run, there is a tutorial out there somewhere.
+IMO - it is more important to know which test is *appropriate* and how to *interpret* it. Once you figure out which test to run, there is a tutorial out there somewhere that will show you how to do it.
 
 ## Chi-Square Test for Goodness of Fit {.smaller}
 
@@ -683,8 +685,6 @@ Measurement also influences which statistics we use to draw conclusions and gene
 "Poor measurement misrepresents the social phenomena being studied, and a lack of construct validity could lend support to inaccurate theories and distort accurate theories" (Bowman & Goodboy, 2020, p. 232).
 
 ### Reliability and Validity {.smaller}
-
-Stay tuned!!
 
 Reliability: Is the measuring performing consistently across respondents?
 
