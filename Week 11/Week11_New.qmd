@@ -4,7 +4,7 @@ author: "Dr. T. Kody Frey"
 institute: "Associate Professor | School of Information Science" 
 format: 
   revealjs:
-    theme: [default]
+    theme: [night]
     slide-number: true
     pdf-separate-fragments: true
     preview-links: auto
@@ -43,7 +43,7 @@ Variable Relationships!
 -   Partial Correlation
 -   Multiple Regression
 
-## Brief Review on BG and WS Difference Tests
+## Brief Review on BG and WS Difference Tests {.smaller}
 
 Already Covered:
 
@@ -116,7 +116,7 @@ The analysis revealed significant main effects of controlling language, F(1, 301
 The analysis revealed a significant main effect of controlling language, F(1, 301) = 8.03, p \< .01, η2 = .03, and a marginally significant interaction, F(1, 301) = 3.22, p = .07, η2 = .01; the fairness main effect was not significant, F(1, 301) = 1.01, p = .32, η2 = .00.
 :::
 
-## What Test is Appropriate! {.smaller}
+## What Test is Appropriate? {.smaller}
 
 ::: incremental
 -   1 between groups IV (2 levels), 1 normally-distributed DV
@@ -136,7 +136,7 @@ The analysis revealed a significant main effect of controlling language, F(1, 30
 -   one-way ANOVA
 :::
 
-## What Test is Appropriate! {.smaller}
+## What Test is Appropriate? {.smaller}
 
 ::: incremental
 -   1 within subjects IV (2 levels), 1 normally-distributed DV
@@ -175,15 +175,15 @@ The analysis revealed a significant main effect of controlling language, F(1, 30
 
 ![](images/screen3.png){fig-align="center" width="800"}
 
-### Option 1
+### Option 1a
 
 ![](images/screen4.png){fig-align="center" width="800"}
 
-### Option 2
+### Option 1b
 
 ![](images/screen5.png){fig-align="center" width="800"}
 
-### Option 3
+### Option 2
 
 ![](images/screen6.png){fig-align="center" width="800"}
 :::
@@ -242,10 +242,10 @@ Chapter 21 (p. 369-385) covers:
     -   Misleading Correlation Coefficients (p. 374-376)
     -   Associational Statistics for Nominal Variables
     -   The Chi-Square Test and Effect Size Indices
-
+    
 ## Remember Pearson {background-iframe="https://www.historyofdatascience.com/karl-pearson-creator-of-correlation/"}
 
-## What are correlations?
+## What are correlations? {.smaller}
 
 An index of the strength of the linear relationship between two variables
 
@@ -273,7 +273,7 @@ Usher, E. L. (2007). Tracing the origins of confidence: A mixed methods explorat
 
 ![](images/cor3.png){fig-align="center"}
 
-## Ch. 22 Overview
+## Ch. 22 Overview {.smaller}
 
 -   Use and Interpretation of Multiple Regression
     -   Correlation and Bivariate Regression
@@ -441,13 +441,15 @@ H2: Which is the best predictor of perceived stress: control of external events 
 ![](images/MR3.png){fig-align="center"}
 :::
 
-## Interpreting the Outpet {.smaller}
+## Interpreting the Output {.smaller}
 
 ![](images/MR8.png){fig-align="center"}
 
 ------------------------------------------------------------------------
 
 ![](images/MR7.png){fig-align="center"}
+
+::: panel-tabset
 
 ### Unstandardized Interpretation
 
@@ -456,6 +458,8 @@ For every 1 unit increase in mastery, perceived stress decreases by -.63 points
 ### Standardized Interpretation
 
 For every 1 standard deviation increase in mastery, perceived stress decreases by -.42 standard deviation.
+
+:::
 
 ## Mediation & Moderation
 
