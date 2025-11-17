@@ -7,6 +7,7 @@ format:
     theme: [night]
     slide-number: true
     preview-links: auto
+    pdf-separate-fragments: true
     logo: Images/UK.png
     footer: <tkfr222@uky.edu> | [@TKFrey](https://twitter.com/TKFrey) | [tkodyfrey.github.io](https://tkodyfrey.github.io)
     scrollable: true
@@ -14,7 +15,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: top
 editor: visual
-self-contained: true
+self-contained: false
 ---
 
 # Housekeeping

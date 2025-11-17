@@ -15,7 +15,7 @@ format:
     navigation-mode: vertical
     fig-cap-location: top
 editor: visual
-self-contained: true
+self-contained: false
 ---
 
 # Housekeeping
@@ -242,7 +242,7 @@ Chapter 21 (p. 369-385) covers:
     -   Misleading Correlation Coefficients (p. 374-376)
     -   Associational Statistics for Nominal Variables
     -   The Chi-Square Test and Effect Size Indices
-    
+
 ## Remember Pearson {background-iframe="https://www.historyofdatascience.com/karl-pearson-creator-of-correlation/"}
 
 ## What are correlations? {.smaller}
@@ -450,7 +450,6 @@ H2: Which is the best predictor of perceived stress: control of external events 
 ![](images/MR7.png){fig-align="center"}
 
 ::: panel-tabset
-
 ### Unstandardized Interpretation
 
 For every 1 unit increase in mastery, perceived stress decreases by -.63 points
@@ -458,7 +457,6 @@ For every 1 unit increase in mastery, perceived stress decreases by -.63 points
 ### Standardized Interpretation
 
 For every 1 standard deviation increase in mastery, perceived stress decreases by -.42 standard deviation.
-
 :::
 
 ## Mediation & Moderation
