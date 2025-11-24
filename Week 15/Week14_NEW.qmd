@@ -55,7 +55,7 @@ editor_options:
 :::::::: panel-tabset
 ### Team Vax
 
-N = 371
+N = 391
 
 ::: {layout-ncol="2"}
 ![](Images/xsmall (3).jpeg){fig-align="left"}
@@ -66,7 +66,7 @@ N = 371
 
 ### Team Binge
 
-N = 163
+N = 182
 
 ::: {layout-ncol="2"}
 ![](Images/xsmall (6).jpeg){fig-align="left"}
@@ -87,7 +87,7 @@ LAUNCHED
 
 ### Team PvP
 
-N = 99
+N = 114
 
 ::: {layout-ncol="2"}
 ![](Images/xsmall (1).jpeg){fig-align="left"}
@@ -98,7 +98,7 @@ N = 99
 
 ### Team Friendship
 
-N = 79
+N = 90
 
 ::: {layout-ncol="2"}
 ![](Images/xsmall (4).jpeg){fig-align="left"}
